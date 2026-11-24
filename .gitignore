@@ -2,8 +2,9 @@
 # To see what will be uploaded before you commit:  git status
 # To put something on GitHub after all, delete its line here.
 
-# Only README.md, .gitignore, 06_ (the Python core) and 11_ (the demo site) are public.
-# Not public: the competition proposal, folders 01–05 and the team's own notes.
+# Only README.md, .gitignore, 06_ (the Python core) and the video/ folder of 11_ (the intro video
+# and the files that made it) are public. Not public: the competition proposal, folders 01–05,
+# the team's own notes, and the rest of 11_ (the demo site's code and its Cloudflare Worker).
 /00_*.docx
 /00_先讀我.md
 /01_*/
