@@ -1,0 +1,28 @@
+{
+  "id": "C1",
+  "name": "投信連買",
+  "category": "籌碼",
+  "source": "台股常見",
+  "periods": [
+    "short",
+    "swing"
+  ],
+  "data": [
+    "三大法人"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "trust_buy_days",
+      "op": ">=",
+      "value": 3,
+      "label": "投信連續買超 ≥ 3 日"
+    },
+    {
+      "factor": "trust_buy_ratio_3d",
+      "op": ">=",
+      "value": 5,
+      "label": "近 3 日投信買超占成交量 ≥ 5%"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "V2",
+  "name": "神奇公式",
+  "category": "價值",
+  "source": "Joel Greenblatt, The Little Book That Beats the Market",
+  "periods": [
+    "long"
+  ],
+  "data": [
+    "財報",
+    "市值"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "magic_rank",
+      "op": "<=",
+      "value": 30,
+      "label": "盈餘殖利率＋資本報酬率綜合排名前 30（排除金融股）"
+    }
+  ],
+  "note": "EBIT 用近四季營業利益；企業價值 = 市值 + 長短期借款與應付公司債 − 現金；資本報酬率 = EBIT ÷（淨營運資金 + 不動產廠房設備）。"
+}

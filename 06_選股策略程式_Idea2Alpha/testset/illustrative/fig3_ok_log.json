@@ -1,0 +1,214 @@
+{
+ "idea": "低價、剛突破月線、放量，但要避開一日行情",
+ "mode": "pipeline",
+ "prompt_version": "translator_v1@b4e1765e",
+ "turns": [
+  {
+   "model_output": {
+    "status": "clarify",
+    "questions": [
+     {
+      "id": "q1",
+      "about": "低價",
+      "text": "「低價」指收盤價的哪個區間？",
+      "options": [
+       {
+        "id": "a",
+        "label": "10 元以下",
+        "rules": [
+         {
+          "factor": "close_raw",
+          "op": "<=",
+          "value": 10
+         }
+        ]
+       },
+       {
+        "id": "b",
+        "label": "15–30 元",
+        "rules": [
+         {
+          "factor": "close_raw",
+          "op": "between",
+          "value": [
+           15,
+           30
+          ]
+         }
+        ]
+       },
+       {
+        "id": "c",
+        "label": "50 元以下",
+        "rules": [
+         {
+          "factor": "close_raw",
+          "op": "<=",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "q2",
+      "about": "放量",
+      "text": "「放量」要多大？",
+      "options": [
+       {
+        "id": "a",
+        "label": "前 20 日均量 1.5 倍以上",
+        "rules": [
+         {
+          "factor": "vol_ratio20",
+          "op": ">=",
+          "value": 1.5
+         }
+        ]
+       },
+       {
+        "id": "b",
+        "label": "2 倍以上",
+        "rules": [
+         {
+          "factor": "vol_ratio20",
+          "op": ">=",
+          "value": 2
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "q3",
+      "about": "一日行情",
+      "text": "「一日行情」無法在今天判斷，要改成失效條件嗎？",
+      "options": [
+       {
+        "id": "a",
+        "label": "3 個交易日內跌回月線",
+        "rules": [
+         {
+          "factor": "above_ma20",
+          "op": "==",
+          "value": 0
+         }
+        ]
+       },
+       {
+        "id": "b",
+        "label": "5 個交易日內跌回月線",
+        "rules": [
+         {
+          "factor": "above_ma20",
+          "op": "==",
+          "value": 0
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "rule": null,
+    "failure_condition": null,
+    "untranslated": [],
+    "assumptions": []
+   },
+   "raw": "{\"status\": \"clarify\", \"questions\": [{\"id\": \"q1\", \"about\": \"低價\", \"text\": \"「低價」指收盤價的哪個區間？\", \"options\": [{\"id\": \"a\", \"label\": \"10 元以下\", \"rules\": [{\"factor\": \"close_raw\", \"op\": \"<=\", \"value\": 10}]}, {\"id\": \"b\", \"label\": \"15–30 元\", \"rules\": [{\"factor\": \"close_raw\", \"op\": \"between\", \"value\": [15, 30]}]}, {\"id\": \"c\", \"label\": \"50 元以下\", \"rules\": [{\"factor\": \"close_raw\", \"op\": \"<=\", \"value\": 50}]}]}, {\"id\": \"q2\", \"about\": \"放量\", \"text\": \"「放量」要多大？\", \"options\": [{\"id\": \"a\", \"label\": \"前 20 日均量 1.5 倍以上\", \"rules\": [{\"factor\": \"vol_ratio20\", \"op\": \">=\", \"value\": 1.5}]}, {\"id\": \"b\", \"label\": \"2 倍以上\", \"rules\": [{\"factor\": \"vol_ratio20\", \"op\": \">=\", \"value\": 2}]}]}, {\"id\": \"q3\", \"about\": \"一日行情\", \"text\": \"「一日行情」無法在今天判斷，要改成失效條件嗎？\", \"options\": [{\"id\": \"a\", \"label\": \"3 個交易日內跌回月線\", \"rules\": [{\"factor\": \"above_ma20\", \"op\": \"==\", \"value\": 0}]}, {\"id\": \"b\", \"label\": \"5 個交易日內跌回月線\", \"rules\": [{\"factor\": \"above_ma20\", \"op\": \"==\", \"value\": 0}]}]}], \"rule\": null, \"failure_condition\": null, \"untranslated\": [], \"assumptions\": []}",
+   "model": "replay",
+   "provider": "replay",
+   "created": "2026-11-17T15:23:47+00:00",
+   "user_answer": "低價：收盤價 15 到 30 元；放量：成交量是前 20 日均量的 1.5 倍以上；一日行情：5 個交易日內只要收盤跌回月線之下，就算一日行情"
+  },
+  {
+   "model_output": {
+    "status": "rule",
+    "questions": [],
+    "rule": {
+     "logic": "all",
+     "rules": [
+      {
+       "factor": "close_raw",
+       "op": "between",
+       "value": [
+        15,
+        30
+       ]
+      },
+      {
+       "factor": "cross_up_ma20",
+       "op": "==",
+       "value": 1
+      },
+      {
+       "factor": "vol_ratio20",
+       "op": ">=",
+       "value": 1.5
+      }
+     ]
+    },
+    "failure_condition": {
+     "logic": "any",
+     "rules": [
+      {
+       "factor": "above_ma20",
+       "op": "==",
+       "value": 0
+      }
+     ],
+     "horizon_days": 5
+    },
+    "untranslated": [],
+    "assumptions": []
+   },
+   "raw": "{\"status\": \"rule\", \"questions\": [], \"rule\": {\"logic\": \"all\", \"rules\": [{\"factor\": \"close_raw\", \"op\": \"between\", \"value\": [15, 30]}, {\"factor\": \"cross_up_ma20\", \"op\": \"==\", \"value\": 1}, {\"factor\": \"vol_ratio20\", \"op\": \">=\", \"value\": 1.5}]}, \"failure_condition\": {\"logic\": \"any\", \"rules\": [{\"factor\": \"above_ma20\", \"op\": \"==\", \"value\": 0}], \"horizon_days\": 5}, \"untranslated\": [], \"assumptions\": []}",
+   "model": "replay",
+   "provider": "replay",
+   "created": "2026-11-17T15:23:47+00:00"
+  }
+ ],
+ "asked": true,
+ "model": "replay",
+ "provider": "replay",
+ "final": {
+  "status": "rule",
+  "questions": [],
+  "rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "close_raw",
+     "op": "between",
+     "value": [
+      15,
+      30
+     ]
+    },
+    {
+     "factor": "cross_up_ma20",
+     "op": "==",
+     "value": 1
+    },
+    {
+     "factor": "vol_ratio20",
+     "op": ">=",
+     "value": 1.5
+    }
+   ]
+  },
+  "failure_condition": {
+   "logic": "any",
+   "rules": [
+    {
+     "factor": "above_ma20",
+     "op": "==",
+     "value": 0
+    }
+   ],
+   "horizon_days": 5
+  },
+  "untranslated": [],
+  "assumptions": []
+ },
+ "issues": []
+}

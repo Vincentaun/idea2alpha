@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="590.4pt" height="417.6pt" viewBox="0 0 590.4 417.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-17T23:28:56.426792</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 417.6 
+L 590.4 417.6 
+L 590.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 34.36128 106.488 
+L 556.03872 106.488 
+" clip-path="url(#pecb0fdd6ba)" style="fill: none; stroke: #d4dee5; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mf468c21c71" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #af6d13"/>
+    </defs>
+    <g clip-path="url(#pecb0fdd6ba)">
+     <use xlink:href="#mf468c21c71" x="62.11008" y="106.488" style="fill: #af6d13; stroke: #af6d13"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: start; fill: #af6d13" x="70.43472" y="81.341881" transform="rotate(-0 70.43472 81.341881)">1  Lock</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; fill: #18334b" transform="translate(70.43472 125.654472)">Rule, failure condition, window and</text>
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; fill: #18334b" transform="translate(70.43472 134.343429)">case-selection declared 2026-11-17</text>
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; fill: #18334b" transform="translate(70.43472 143.032386)">(SHA-256 313b1c92)</text>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m595719973f" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #18334b"/>
+    </defs>
+    <g clip-path="url(#pecb0fdd6ba)">
+     <use xlink:href="#m595719973f" x="239.7024" y="106.488" style="fill: #18334b; stroke: #18334b"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: start; fill: #18334b" x="248.02704" y="81.441412" transform="rotate(-0 248.02704 81.441412)">2  Evidence cutoff</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; fill: #18334b" transform="translate(248.02704 125.571191)">Each signal uses data up to</text>
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; fill: #18334b" transform="translate(248.02704 134.260148)">its own signal date only</text>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path id="mcf52998f2d" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #087e8b"/>
+    </defs>
+    <g clip-path="url(#pecb0fdd6ba)">
+     <use xlink:href="#mcf52998f2d" x="417.29472" y="106.488" style="fill: #087e8b; stroke: #087e8b"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: start; fill: #087e8b" x="425.61936" y="81.341881" transform="rotate(-0 425.61936 81.341881)">3  Reveal</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; fill: #18334b" transform="translate(425.61936 125.571191)">Next 5 trading days compared</text>
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; fill: #18334b" transform="translate(425.61936 134.343429)">with the locked failure condition</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_2">
+    <path d="M 41.328 346.608 
+L 277.488 346.608 
+L 277.488 187.92 
+L 41.328 187.92 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2"/>
+     <g id="text_7">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="53.979429" y="356.001555" transform="rotate(-0 53.979429 356.001555)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3"/>
+     <g id="text_8">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="96.150857" y="356.001555" transform="rotate(-0 96.150857 356.001555)">1</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_4"/>
+     <g id="text_9">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="138.322286" y="356.001555" transform="rotate(-0 138.322286 356.001555)">2</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_5"/>
+     <g id="text_10">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="180.493714" y="356.001555" transform="rotate(-0 180.493714 356.001555)">3</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_6"/>
+     <g id="text_11">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="222.665143" y="356.001555" transform="rotate(-0 222.665143 356.001555)">4</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_7"/>
+     <g id="text_12">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="264.836571" y="356.001555" transform="rotate(-0 264.836571 356.001555)">5</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="159.408" y="368.17259" transform="rotate(-0 159.408 368.17259)">Trading days after signal</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8"/>
+     <g id="text_14">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="37.828" y="334.902142" transform="rotate(-0 37.828 334.902142)">-1</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9"/>
+     <g id="text_15">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="37.828" y="316.586347" transform="rotate(-0 37.828 316.586347)">0</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10"/>
+     <g id="text_16">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="37.828" y="298.270553" transform="rotate(-0 37.828 298.270553)">1</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11"/>
+     <g id="text_17">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="37.828" y="279.954758" transform="rotate(-0 37.828 279.954758)">2</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12"/>
+     <g id="text_18">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="37.828" y="261.638963" transform="rotate(-0 37.828 261.638963)">3</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13"/>
+     <g id="text_19">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="37.828" y="243.323169" transform="rotate(-0 37.828 243.323169)">4</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_14"/>
+     <g id="text_20">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="37.828" y="225.007374" transform="rotate(-0 37.828 225.007374)">5</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_15"/>
+     <g id="text_21">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="37.828" y="206.69158" transform="rotate(-0 37.828 206.69158)">6</text>
+     </g>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="24.805383" y="267.264" transform="rotate(-90 24.805383 267.264)">Close vs. MA20 (%)</text>
+    </g>
+   </g>
+   <g id="line2d_16">
+    <path d="M 41.328 313.63957 
+L 277.488 313.63957 
+" clip-path="url(#pb17ed27e59)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #18334b"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 53.979429 269.749472 
+L 96.150857 269.239268 
+L 138.322286 269.301538 
+L 180.493714 210.730861 
+L 222.665143 209.898953 
+L 264.836571 213.808907 
+" clip-path="url(#pb17ed27e59)" style="fill: none; stroke: #087e8b; stroke-width: 1.8; stroke-linecap: square"/>
+    <defs>
+     <path id="m0afeae6a42" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #087e8b"/>
+    </defs>
+    <g clip-path="url(#pb17ed27e59)">
+     <use xlink:href="#m0afeae6a42" x="53.979429" y="269.749472" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m0afeae6a42" x="96.150857" y="269.239268" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m0afeae6a42" x="138.322286" y="269.301538" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m0afeae6a42" x="180.493714" y="210.730861" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m0afeae6a42" x="222.665143" y="209.898953" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m0afeae6a42" x="264.836571" y="213.808907" style="fill: #087e8b; stroke: #087e8b"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 41.328 346.608 
+L 41.328 187.92 
+" style="fill: none; stroke: #d4dee5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 41.328 346.608 
+L 277.488 346.608 
+" style="fill: none; stroke: #d4dee5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end; fill: #18334b" x="269.053714" y="309.165638" transform="rotate(-0 269.053714 309.165638)">MA20</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: start; fill: #087e8b" x="41.328" y="181.92" transform="rotate(-0 41.328 181.92)">Held: 2610, signal 2026-07-28 — held all 5 days</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_5">
+    <path d="M 318.816 346.608 
+L 554.976 346.608 
+L 554.976 187.92 
+L 318.816 187.92 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_7">
+     <g id="line2d_18"/>
+     <g id="text_25">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="331.467429" y="356.001555" transform="rotate(-0 331.467429 356.001555)">0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_19"/>
+     <g id="text_26">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="373.638857" y="356.001555" transform="rotate(-0 373.638857 356.001555)">1</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_20"/>
+     <g id="text_27">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="415.810286" y="356.001555" transform="rotate(-0 415.810286 356.001555)">2</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_21"/>
+     <g id="text_28">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="457.981714" y="356.001555" transform="rotate(-0 457.981714 356.001555)">3</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_22"/>
+     <g id="text_29">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="500.153143" y="356.001555" transform="rotate(-0 500.153143 356.001555)">4</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_23"/>
+     <g id="text_30">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="542.324571" y="356.001555" transform="rotate(-0 542.324571 356.001555)">5</text>
+     </g>
+    </g>
+    <g id="text_31">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: middle" x="436.896" y="368.17259" transform="rotate(-0 436.896 368.17259)">Trading days after signal</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_9">
+     <g id="line2d_24"/>
+     <g id="text_32">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="315.316" y="336.136127" transform="rotate(-0 315.316 336.136127)">-1.5</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_25"/>
+     <g id="text_33">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="315.316" y="313.771709" transform="rotate(-0 315.316 313.771709)">-1.0</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_26"/>
+     <g id="text_34">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="315.316" y="291.407291" transform="rotate(-0 315.316 291.407291)">-0.5</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_27"/>
+     <g id="text_35">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="315.316" y="269.042873" transform="rotate(-0 315.316 269.042873)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_28"/>
+     <g id="text_36">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="315.316" y="246.678455" transform="rotate(-0 315.316 246.678455)">0.5</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_29"/>
+     <g id="text_37">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="315.316" y="224.314037" transform="rotate(-0 315.316 224.314037)">1.0</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_30"/>
+     <g id="text_38">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end" x="315.316" y="201.949619" transform="rotate(-0 315.316 201.949619)">1.5</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_31">
+    <path d="M 318.816 266.096096 
+L 554.976 266.096096 
+" clip-path="url(#p467926ba0b)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #18334b"/>
+   </g>
+   <g id="line2d_32">
+    <path d="M 331.467429 241.594603 
+L 373.638857 260.692225 
+L 415.810286 282.262057 
+" clip-path="url(#p467926ba0b)" style="fill: none; stroke: #a23b2a; stroke-width: 1.8; stroke-linecap: square"/>
+    <defs>
+     <path id="md53ee78f23" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #a23b2a"/>
+    </defs>
+    <g clip-path="url(#p467926ba0b)">
+     <use xlink:href="#md53ee78f23" x="331.467429" y="241.594603" style="fill: #a23b2a; stroke: #a23b2a"/>
+     <use xlink:href="#md53ee78f23" x="373.638857" y="260.692225" style="fill: #a23b2a; stroke: #a23b2a"/>
+     <use xlink:href="#md53ee78f23" x="415.810286" y="282.262057" style="fill: #a23b2a; stroke: #a23b2a"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 318.816 346.608 
+L 318.816 187.92 
+" style="fill: none; stroke: #d4dee5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 318.816 346.608 
+L 554.976 346.608 
+" style="fill: none; stroke: #d4dee5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: end; fill: #18334b" x="546.541714" y="257.660208" transform="rotate(-0 546.541714 257.660208)">MA20</text>
+   </g>
+   <g id="PathCollection_4">
+    <path d="M 415.810286 286.734193 
+C 416.99631 286.734193 418.133918 286.262981 418.972563 285.424335 
+C 419.811209 284.585689 420.282422 283.448082 420.282422 282.262057 
+C 420.282422 281.076033 419.811209 279.938426 418.972563 279.09978 
+C 418.133918 278.261134 416.99631 277.789922 415.810286 277.789922 
+C 414.624261 277.789922 413.486654 278.261134 412.648008 279.09978 
+C 411.809362 279.938426 411.33815 281.076033 411.33815 282.262057 
+C 411.33815 283.448082 411.809362 284.585689 412.648008 285.424335 
+C 413.486654 286.262981 414.624261 286.734193 415.810286 286.734193 
+L 415.810286 286.734193 
+z
+" clip-path="url(#p467926ba0b)" style="fill: none; stroke: #a23b2a; stroke-width: 1.5"/>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: start; fill: #a23b2a" x="318.816" y="181.92" transform="rotate(-0 318.816 181.92)">Failed: 2812, signal 2026-08-03 — failed on day 2</text>
+   </g>
+  </g>
+  <g id="text_41">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: start; fill: #18334b" x="5.904" y="18.208875" transform="rotate(-0 5.904 18.208875)">Historical replay with a locked rule and evidence cutoff</text>
+  </g>
+  <g id="text_42">
+   <text style="font-size: 8.8px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; fill: #18334b" transform="translate(5.904 38.35132)">Rule: Close (NT$) between 15 and 30; Crossed above MA20 today; Volume / prior 20-day avg ≥ 1.5.  Failure: close back below MA20</text>
+   <text style="font-size: 8.8px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; fill: #18334b" transform="translate(5.904 47.676055)">within 5 trading days.</text>
+  </g>
+  <g id="text_43">
+   <text style="font-size: 8.4px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: start; fill: #18334b" x="5.904" y="390.456" transform="rotate(-0 5.904 390.456)">All 8 signals in 2026-07-01 to 2026-09-30: held 5, failed 3, unknown 0. The two cases follow the pre-declared selection (first held and first failed by date).</text>
+  </g>
+  <g id="text_44">
+   <text style="font-size: 7.8px; font-family: 'Times New Roman', 'Liberation Serif', 'Noto Serif CJK TC', 'Noto Sans CJK TC', 'DejaVu Serif', serif; text-anchor: start; fill: #5e6c78" x="5.904" y="407.16" transform="rotate(-0 5.904 407.16)">Retrospective replay of historical data; it illustrates the workflow and does not estimate a success rate. Source: runs/replay_result_313b1c92.json</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pecb0fdd6ba">
+   <rect x="17.712" y="70.992" width="554.976" height="70.992"/>
+  </clipPath>
+  <clipPath id="pb17ed27e59">
+   <rect x="41.328" y="187.92" width="236.16" height="158.688"/>
+  </clipPath>
+  <clipPath id="p467926ba0b">
+   <rect x="318.816" y="187.92" width="236.16" height="158.688"/>
+  </clipPath>
+ </defs>
+</svg>

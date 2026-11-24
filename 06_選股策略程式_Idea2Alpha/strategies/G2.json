@@ -1,0 +1,27 @@
+{
+  "id": "G2",
+  "name": "月營收創新高",
+  "category": "成長",
+  "source": "台股特有（月營收公告制度）",
+  "periods": [
+    "swing"
+  ],
+  "data": [
+    "月營收"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "rev_new_high_12m",
+      "op": "==",
+      "value": 1,
+      "label": "單月營收創近 12 個月新高"
+    },
+    {
+      "factor": "rev_yoy_3m",
+      "op": ">",
+      "value": 20,
+      "label": "近 3 月營收年增率 > 20%"
+    }
+  ]
+}

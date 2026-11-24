@@ -1,0 +1,149 @@
+{
+ "stock_id": "2610",
+ "as_of": "2026-07-28",
+ "facts": [
+  {
+   "id": "F01",
+   "label": "收盤價",
+   "label_en": "Close",
+   "value": 21.75,
+   "shown": "21.75",
+   "unit": "元",
+   "as_of": "2026-07-28",
+   "source": "close_raw",
+   "tag": "level"
+  },
+  {
+   "id": "F02",
+   "label": "收盤相對 20 日均線",
+   "label_en": "Close vs. MA20",
+   "value": 2.4,
+   "shown": "2.4",
+   "unit": "%",
+   "as_of": "2026-07-28",
+   "source": "pct_vs_ma20",
+   "tag": "level"
+  },
+  {
+   "id": "F03",
+   "label": "當日向上突破 20 日均線",
+   "label_en": "Crossed above MA20 today",
+   "value": 1,
+   "shown": "是",
+   "unit": "是/否",
+   "as_of": "2026-07-28",
+   "source": "cross_up_ma20",
+   "tag": "event"
+  },
+  {
+   "id": "F04",
+   "label": "連續收在 20 日均線之上",
+   "label_en": "Consecutive days above MA20",
+   "value": 1,
+   "shown": "1",
+   "unit": "日",
+   "as_of": "2026-07-28",
+   "source": "days_above_ma20",
+   "tag": "multi_day"
+  },
+  {
+   "id": "F05",
+   "label": "成交量 ÷ 前 20 日均量",
+   "label_en": "Volume / prior 20-day average",
+   "value": 2.3,
+   "shown": "2.30",
+   "unit": "倍",
+   "as_of": "2026-07-28",
+   "source": "vol_ratio20",
+   "tag": "level"
+  },
+  {
+   "id": "F06",
+   "label": "近 5 日均量 ÷ 再之前 20 日均量",
+   "label_en": "5-day avg volume / prior 20-day avg",
+   "value": 0.77,
+   "shown": "0.77",
+   "unit": "倍",
+   "as_of": "2026-07-28",
+   "source": "vol5_ratio20",
+   "tag": "multi_day"
+  },
+  {
+   "id": "F07",
+   "label": "當日漲跌幅",
+   "label_en": "1-day return",
+   "value": 2.4,
+   "shown": "2.4",
+   "unit": "%",
+   "as_of": "2026-07-28",
+   "source": "ret_1d",
+   "tag": "level"
+  },
+  {
+   "id": "F08",
+   "label": "近 5 日漲跌幅",
+   "label_en": "5-day return",
+   "value": 1.4,
+   "shown": "1.4",
+   "unit": "%",
+   "as_of": "2026-07-28",
+   "source": "ret_5d",
+   "tag": "multi_day"
+  },
+  {
+   "id": "F09",
+   "label": "距 52 週高點",
+   "label_en": "Distance from 52-week high",
+   "value": -8.6,
+   "shown": "-8.6",
+   "unit": "%",
+   "as_of": "2026-07-28",
+   "source": "high_52w_dist",
+   "tag": "level"
+  },
+  {
+   "id": "F10",
+   "label": "12-1 月報酬在股票池的百分位",
+   "label_en": "12-1 momentum percentile",
+   "value": 12,
+   "shown": "12",
+   "unit": "百分位",
+   "as_of": "2026-07-28",
+   "source": "mom_12_1_pct",
+   "tag": "benchmark"
+  },
+  {
+   "id": "F11",
+   "label": "近 1 年年化波動度",
+   "label_en": "1-year volatility",
+   "value": 25.7,
+   "shown": "25.7",
+   "unit": "%",
+   "as_of": "2026-07-28",
+   "source": "vol_1y",
+   "tag": "risk"
+  },
+  {
+   "id": "F12",
+   "label": "近 1 年日報酬 5% 分位",
+   "label_en": "1-day 5% VaR (1-year)",
+   "value": -2.7,
+   "shown": "-2.7",
+   "unit": "%",
+   "as_of": "2026-07-28",
+   "source": "var5",
+   "tag": "risk"
+  },
+  {
+   "id": "F13",
+   "label": "20 日成交值排名",
+   "label_en": "20-day turnover rank",
+   "value": 183,
+   "shown": "183",
+   "unit": "名",
+   "as_of": "2026-07-28",
+   "source": "turnover_rank",
+   "tag": "benchmark"
+  }
+ ]
+}

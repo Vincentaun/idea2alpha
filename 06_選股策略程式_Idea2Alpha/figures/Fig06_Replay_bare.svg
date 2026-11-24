@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="590.4pt" height="288pt" viewBox="0 0 590.4 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-18T12:26:56.415552</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 288 
+L 590.4 288 
+L 590.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 34.36128 77.76 
+L 556.03872 77.76 
+" clip-path="url(#pd773150167)" style="fill: none; stroke: #d4dee5; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m2fc5e31679" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #af6d13"/>
+    </defs>
+    <g clip-path="url(#pd773150167)">
+     <use xlink:href="#m2fc5e31679" x="62.11008" y="77.76" style="fill: #af6d13; stroke: #af6d13"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #af6d13" x="70.43472" y="50.553438" transform="rotate(-0 70.43472 50.553438)">1  Lock</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(70.43472 96.932275)">Rule, failure condition, window and</text>
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(70.43472 105.518956)">case-selection declared 2026-11-17</text>
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(70.43472 114.105638)">(SHA-256 313b1c92)</text>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m58b24b5f1b" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #18334b"/>
+    </defs>
+    <g clip-path="url(#pd773150167)">
+     <use xlink:href="#m58b24b5f1b" x="239.7024" y="77.76" style="fill: #18334b; stroke: #18334b"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="248.02704" y="50.553438" transform="rotate(-0 248.02704 50.553438)">2  Evidence cutoff</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(248.02704 96.932275)">Each signal uses data up to</text>
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(248.02704 105.534331)">its own signal date only</text>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path id="m7c26d7fca0" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #087e8b"/>
+    </defs>
+    <g clip-path="url(#pd773150167)">
+     <use xlink:href="#m7c26d7fca0" x="417.29472" y="77.76" style="fill: #087e8b; stroke: #087e8b"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="425.61936" y="50.553438" transform="rotate(-0 425.61936 50.553438)">3  Reveal</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(425.61936 96.932275)">Next 5 trading days compared</text>
+    <text style="font-size: 8.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(425.61936 105.534331)">with the locked failure condition</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_2">
+    <path d="M 41.328 250.56 
+L 277.488 250.56 
+L 277.488 152.64 
+L 41.328 152.64 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2"/>
+     <g id="text_7">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="53.979429" y="259.962188" transform="rotate(-0 53.979429 259.962188)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3"/>
+     <g id="text_8">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="96.150857" y="259.962188" transform="rotate(-0 96.150857 259.962188)">1</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_4"/>
+     <g id="text_9">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="138.322286" y="259.962188" transform="rotate(-0 138.322286 259.962188)">2</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_5"/>
+     <g id="text_10">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="180.493714" y="259.962188" transform="rotate(-0 180.493714 259.962188)">3</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_6"/>
+     <g id="text_11">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="222.665143" y="259.962188" transform="rotate(-0 222.665143 259.962188)">4</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_7"/>
+     <g id="text_12">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="264.836571" y="259.962188" transform="rotate(-0 264.836571 259.962188)">5</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="159.408" y="272.029766" transform="rotate(-0 159.408 272.029766)">Trading days after signal</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8"/>
+     <g id="text_14">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end" x="37.828" y="233.167598" transform="rotate(-0 37.828 233.167598)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9"/>
+     <g id="text_15">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end" x="37.828" y="210.563713" transform="rotate(-0 37.828 210.563713)">2</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10"/>
+     <g id="text_16">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end" x="37.828" y="187.959829" transform="rotate(-0 37.828 187.959829)">4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11"/>
+     <g id="text_17">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end" x="37.828" y="165.355945" transform="rotate(-0 37.828 165.355945)">6</text>
+     </g>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="27.652844" y="201.6" transform="rotate(-90 27.652844 201.6)">Close vs. MA20 (%)</text>
+    </g>
+   </g>
+   <g id="line2d_12">
+    <path d="M 41.328 230.216504 
+L 277.488 230.216504 
+" clip-path="url(#p948d1bf5bd)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #18334b"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 53.979429 203.133685 
+L 96.150857 202.818859 
+L 138.322286 202.857283 
+L 180.493714 166.715667 
+L 222.665143 166.202331 
+L 264.836571 168.615006 
+" clip-path="url(#p948d1bf5bd)" style="fill: none; stroke: #087e8b; stroke-width: 1.8; stroke-linecap: square"/>
+    <defs>
+     <path id="m64ed8dcfda" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #087e8b"/>
+    </defs>
+    <g clip-path="url(#p948d1bf5bd)">
+     <use xlink:href="#m64ed8dcfda" x="53.979429" y="203.133685" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m64ed8dcfda" x="96.150857" y="202.818859" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m64ed8dcfda" x="138.322286" y="202.857283" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m64ed8dcfda" x="180.493714" y="166.715667" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m64ed8dcfda" x="222.665143" y="166.202331" style="fill: #087e8b; stroke: #087e8b"/>
+     <use xlink:href="#m64ed8dcfda" x="264.836571" y="168.615006" style="fill: #087e8b; stroke: #087e8b"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 41.328 250.56 
+L 41.328 152.64 
+" style="fill: none; stroke: #d4dee5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 41.328 250.56 
+L 277.488 250.56 
+" style="fill: none; stroke: #d4dee5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="269.053714" y="226.809963" transform="rotate(-0 269.053714 226.809963)">MA20</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="41.328" y="146.64" transform="rotate(-0 41.328 146.64)">Held: 2610, signal 2026-07-28 — held all 5 days</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_5">
+    <path d="M 318.816 250.56 
+L 554.976 250.56 
+L 554.976 152.64 
+L 318.816 152.64 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_7">
+     <g id="line2d_14"/>
+     <g id="text_21">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="331.467429" y="259.962188" transform="rotate(-0 331.467429 259.962188)">0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15"/>
+     <g id="text_22">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="373.638857" y="259.962188" transform="rotate(-0 373.638857 259.962188)">1</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_16"/>
+     <g id="text_23">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="415.810286" y="259.962188" transform="rotate(-0 415.810286 259.962188)">2</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_17"/>
+     <g id="text_24">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="457.981714" y="259.962188" transform="rotate(-0 457.981714 259.962188)">3</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_18"/>
+     <g id="text_25">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="500.153143" y="259.962188" transform="rotate(-0 500.153143 259.962188)">4</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_19"/>
+     <g id="text_26">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="542.324571" y="259.962188" transform="rotate(-0 542.324571 259.962188)">5</text>
+     </g>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: middle" x="436.896" y="272.029766" transform="rotate(-0 436.896 272.029766)">Trading days after signal</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_5">
+     <g id="line2d_20"/>
+     <g id="text_28">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end" x="315.316" y="231.430797" transform="rotate(-0 315.316 231.430797)">-1</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_21"/>
+     <g id="text_29">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end" x="315.316" y="203.830427" transform="rotate(-0 315.316 203.830427)">0</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_22"/>
+     <g id="text_30">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end" x="315.316" y="176.230056" transform="rotate(-0 315.316 176.230056)">1</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_23">
+    <path d="M 318.816 200.879333 
+L 554.976 200.879333 
+" clip-path="url(#pfa45b76856)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #18334b"/>
+   </g>
+   <g id="line2d_24">
+    <path d="M 331.467429 185.760445 
+L 373.638857 197.544821 
+L 415.810286 210.8547 
+" clip-path="url(#pfa45b76856)" style="fill: none; stroke: #a23b2a; stroke-width: 1.8; stroke-linecap: square"/>
+    <defs>
+     <path id="mc076f9698f" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #a23b2a"/>
+    </defs>
+    <g clip-path="url(#pfa45b76856)">
+     <use xlink:href="#mc076f9698f" x="331.467429" y="185.760445" style="fill: #a23b2a; stroke: #a23b2a"/>
+     <use xlink:href="#mc076f9698f" x="373.638857" y="197.544821" style="fill: #a23b2a; stroke: #a23b2a"/>
+     <use xlink:href="#mc076f9698f" x="415.810286" y="210.8547" style="fill: #a23b2a; stroke: #a23b2a"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 318.816 250.56 
+L 318.816 152.64 
+" style="fill: none; stroke: #d4dee5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 318.816 250.56 
+L 554.976 250.56 
+" style="fill: none; stroke: #d4dee5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="546.541714" y="195.028027" transform="rotate(-0 546.541714 195.028027)">MA20</text>
+   </g>
+   <g id="PathCollection_4">
+    <path d="M 415.810286 215.326836 
+C 416.99631 215.326836 418.133918 214.855623 418.972563 214.016977 
+C 419.811209 213.178332 420.282422 212.040724 420.282422 210.8547 
+C 420.282422 209.668675 419.811209 208.531068 418.972563 207.692422 
+C 418.133918 206.853776 416.99631 206.382564 415.810286 206.382564 
+C 414.624261 206.382564 413.486654 206.853776 412.648008 207.692422 
+C 411.809362 208.531068 411.33815 209.668675 411.33815 210.8547 
+C 411.33815 212.040724 411.809362 213.178332 412.648008 214.016977 
+C 413.486654 214.855623 414.624261 215.326836 415.810286 215.326836 
+L 415.810286 215.326836 
+z
+" clip-path="url(#pfa45b76856)" style="fill: none; stroke: #a23b2a; stroke-width: 1.5"/>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #a23b2a" x="318.816" y="146.64" transform="rotate(-0 318.816 146.64)">Failed: 2812, signal 2026-08-03 — failed on day 2</text>
+   </g>
+  </g>
+  <g id="text_33">
+   <text style="font-size: 8.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(5.904 16.39675)">Rule: Close (NT$) between 15 and 30; Crossed above MA20 today; Volume / prior 20-day avg ≥ 1.5.  Failure: close back below MA20</text>
+   <text style="font-size: 8.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(5.904 25.628225)">within 5 trading days.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd773150167">
+   <rect x="17.712" y="40.32" width="554.976" height="74.88"/>
+  </clipPath>
+  <clipPath id="p948d1bf5bd">
+   <rect x="41.328" y="152.64" width="236.16" height="97.92"/>
+  </clipPath>
+  <clipPath id="pfa45b76856">
+   <rect x="318.816" y="152.64" width="236.16" height="97.92"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,92 @@
+[
+ {
+  "id": "L01",
+  "show": "Idea2Alpha turns a stock idea into conditions you can test, and prove wrong.",
+  "say": "Idea to Alpha turns a stock idea into conditions you can test, and prove wrong."
+ },
+ {
+  "id": "L02",
+  "show": "On the Try it page, you write an idea the way you'd say it, and Translate with AI sends it to the Gemini model we evaluated.",
+  "say": "On the Try it page, you write an idea the way you would say it, and Translate with A.I. sends it to the Gemini model we evaluated."
+ },
+ {
+  "id": "L03",
+  "show": "Here is one of our 30 test ideas: stocks that have been very strong lately.",
+  "say": "Here is one of our thirty test ideas: stocks that have been very strong lately."
+ },
+ {
+  "id": "L04",
+  "show": "The page highlights the vague word. It has no number yet,",
+  "say": "The page highlights the vague word. It has no number yet,"
+ },
+ {
+  "id": "L05",
+  "show": "so the translator asks what “very strong” means, instead of guessing.",
+  "say": "so the translator asks what very strong means, instead of guessing."
+ },
+ {
+  "id": "L06",
+  "show": "Pick a different answer, and the conditions change at once.",
+  "say": "Pick a different answer, and the conditions change at once."
+ },
+ {
+  "id": "L07",
+  "show": "Program checks confirm every factor and value, and the screening engine, not the AI, finds the matching stocks.",
+  "say": "Program checks confirm every factor and value, and the screening engine, not the A.I., finds the matching stocks."
+ },
+ {
+  "id": "L08",
+  "show": "On 30 test ideas with signed answer keys, a direct prompt matched only 4.",
+  "say": "On thirty test ideas with signed answer keys, a direct prompt matched only four."
+ },
+ {
+  "id": "L09",
+  "show": "The full pipeline matched 24 and 26 in two identical runs, against a target of 25.",
+  "say": "The full pipeline matched twenty-four and twenty-six in two identical runs, against a target of twenty-five."
+ },
+ {
+  "id": "L10",
+  "show": "Backtests from 2019 to 2026 compare each strategy with 0050 and with 200 random portfolios.",
+  "say": "Backtests from twenty nineteen to twenty twenty-six compare each strategy with zero zero five zero, and with two hundred random portfolios."
+ },
+ {
+  "id": "L11",
+  "show": "One popular combination beat only 30% of them: indistinguishable from luck.",
+  "say": "One popular combination beat only thirty percent of them: indistinguishable from luck."
+ },
+ {
+  "id": "L12",
+  "show": "A bull, a bear and a judge debate from a numbered fact sheet, and a checker flags unsupported claims.",
+  "say": "A bull, a bear and a judge debate from a numbered fact sheet, and a checker flags unsupported claims."
+ },
+ {
+  "id": "L13",
+  "show": "The replay locks a rule before the outcome: of 8 signals, 5 held and 3 failed.",
+  "say": "The replay locks a rule before the outcome. Of eight signals, five held, and three failed."
+ },
+ {
+  "id": "L14",
+  "show": "You can also ask the AI about the project.",
+  "say": "You can also ask the A.I. about the project."
+ },
+ {
+  "id": "L14b",
+  "show": "It answers from a fact sheet built from our run records,",
+  "say": "It answers from a fact sheet built from our run records,"
+ },
+ {
+  "id": "L15",
+  "show": "and it declines to pick stocks.",
+  "say": "and it declines to pick stocks."
+ },
+ {
+  "id": "L16",
+  "show": "Every page works in English and Traditional Chinese.",
+  "say": "Every page works in English and Traditional Chinese."
+ },
+ {
+  "id": "L17",
+  "show": "Idea2Alpha. Test your stock idea before you trust it.",
+  "say": "Idea to Alpha. Test your stock idea before you trust it."
+ }
+]

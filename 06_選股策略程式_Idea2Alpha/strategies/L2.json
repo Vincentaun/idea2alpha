@@ -1,0 +1,29 @@
+{
+  "id": "L2",
+  "name": "%R 超賣反轉（限高量股）",
+  "category": "實驗室",
+  "source": "實驗室個股期觀察（Williams %R）",
+  "periods": [
+    "short"
+  ],
+  "data": [
+    "日K",
+    "成交值"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "turnover_rank",
+      "op": "<=",
+      "value": 100,
+      "label": "成交值前 100 名"
+    },
+    {
+      "factor": "willr_cross_up_80",
+      "op": "==",
+      "value": 1,
+      "label": "%R 由 −80 以下回升"
+    }
+  ],
+  "note": "實驗室在台指期與 8 檔個股期上測過 %R 的四種用法，皆未勝過買進持有（策略庫淘汰名單）；保留作為對照組。"
+}

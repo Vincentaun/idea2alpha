@@ -1,0 +1,22 @@
+{
+  "id": "T1",
+  "name": "12-1 月動能",
+  "category": "動能與技術",
+  "source": "Jegadeesh & Titman (1993), Journal of Finance",
+  "periods": [
+    "swing",
+    "long"
+  ],
+  "data": [
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "mom_12_1_pct",
+      "op": ">=",
+      "value": 0.9,
+      "label": "過去 12 個月報酬（扣最近 1 個月）前 10%"
+    }
+  ]
+}

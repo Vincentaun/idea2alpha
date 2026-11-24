@@ -1,0 +1,68 @@
+# Files Git leaves out when this folder is uploaded to GitHub. They stay on your computer.
+# To see what will be uploaded before you commit:  git status
+# To put something on GitHub after all, delete its line here.
+
+# Only README.md, .gitignore, 06_ (the Python core) and 11_ (the demo site) are public.
+# Not public: the competition proposal, folders 01–05 and the team's own notes.
+/00_*.docx
+/00_先讀我.md
+/01_*/
+/02_*/
+/03_*/
+/04_*/
+/05_*/
+/07_*.md
+/09_*.md
+/10_*.md
+/11_示範網站_Idea2Alpha/*
+!/11_示範網站_Idea2Alpha/video/
+/給同學_*.md
+
+# Office files and archives anywhere in the folder, so one added later stays off GitHub too
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.odp
+*.zip
+*.7z
+*.rar
+
+# Keys and passwords. None are in this folder now; these lines keep any you add later off GitHub.
+.env
+.env.*
+.dev.vars
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Data: the factor panel and other files the programs write (output/), FinMind downloads (cache/).
+# FinMind data is not redistributed; everyone downloads their own with their own token.
+**/output/*
+cache/
+*.parquet
+
+# Files the video rebuild creates (screen frames, trimmed voice, the new video)
+/11_示範網站_Idea2Alpha/video/source/capture/
+/11_示範網站_Idea2Alpha/video/source/voice/
+/11_示範網站_Idea2Alpha/video/source/out/
+
+# Python, Node and editor leftovers
+__pycache__/
+*.py[cod]
+node_modules/
+.claude/
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# Windows and Office temporary files (~$ files appear while a Word or Excel file is open)
+~$*
+Thumbs.db
+desktop.ini

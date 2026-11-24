@@ -1,0 +1,2 @@
+﻿id,category,mode,status,asked,n_errors,error_codes,intercepted_codes,outcome,how
+F01,未來結果轉失效條件,pipeline,rule,True,0,,,correct,執行結果比對；失效條件相同

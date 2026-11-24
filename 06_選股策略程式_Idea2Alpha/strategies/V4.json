@@ -1,0 +1,28 @@
+{
+  "id": "V4",
+  "name": "低 PEG",
+  "category": "價值",
+  "source": "Peter Lynch, One Up on Wall Street",
+  "periods": [
+    "long"
+  ],
+  "data": [
+    "財報",
+    "本益比"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "peg",
+      "op": "<",
+      "value": 1,
+      "label": "本益比 ÷ 近 3 年 EPS 年成長率 < 1"
+    },
+    {
+      "factor": "eps_cagr_3y",
+      "op": ">",
+      "value": 10,
+      "label": "EPS 年成長率 > 10%"
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+[
+ {
+  "id": "A01",
+  "category": "明確門檻",
+  "idea": "收盤價在 50 元以下、RSI 低於 30 的股票",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "close_raw",
+     "op": "<=",
+     "value": 50
+    },
+    {
+     "factor": "rsi",
+     "op": "<",
+     "value": 30
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "A02",
+  "category": "明確門檻",
+  "idea": "本益比低於 12 倍而且殖利率至少 5%",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "PER",
+     "op": "<",
+     "value": 12
+    },
+    {
+     "factor": "dividend_yield",
+     "op": ">=",
+     "value": 5
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "A03",
+  "category": "明確門檻",
+  "idea": "距離 52 週高點不到 5%，而且成交量是 20 日均量 2 倍以上",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "high_52w_dist",
+     "op": ">=",
+     "value": -5
+    },
+    {
+     "factor": "vol_ratio20",
+     "op": ">=",
+     "value": 2
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名；GAI 交叉檢查（2026-11-18，只是建議、不算審過）：「不到 5%」字面是嚴格小於，嚴格寫法是 high_52w_dist > -5，目前標準答案用 >= -5。評分以執行結果比對，兩種寫法幾乎選出同一批股票（只有剛好 -5.0% 的股票不同），請審題者決定是否改"
+ },
+ {
+  "id": "A04",
+  "category": "明確門檻",
+  "idea": "近一年波動度最低的 20% 股票",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "vol_1y_pct",
+     "op": "<=",
+     "value": 0.2
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "A05",
+  "category": "明確門檻",
+  "idea": "投信連續買超至少 5 天",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "trust_buy_days",
+     "op": ">=",
+     "value": 5
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "A06",
+  "category": "明確門檻",
+  "idea": "負債比低於 40%，流動比率大於 2",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "debt_ratio",
+     "op": "<",
+     "value": 40
+    },
+    {
+     "factor": "current_ratio",
+     "op": ">",
+     "value": 2
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "B01",
+  "category": "模糊詞需澄清",
+  "idea": "低價、剛突破月線、有放量的股票",
+  "answers": {
+   "低價": "收盤價 15 到 30 元",
+   "放量": "成交量是前 20 日均量的 1.5 倍以上"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "close_raw",
+     "op": "between",
+     "value": [
+      15,
+      30
+     ]
+    },
+    {
+     "factor": "cross_up_ma20",
+     "op": "==",
+     "value": 1
+    },
+    {
+     "factor": "vol_ratio20",
+     "op": ">=",
+     "value": 1.5
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "B02",
+  "category": "模糊詞需澄清",
+  "idea": "便宜的高殖利率股",
+  "answers": {
+   "便宜": "本益比 15 倍以下",
+   "殖利率": "現金殖利率 6% 以上"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "PER",
+     "op": "<=",
+     "value": 15
+    },
+    {
+     "factor": "dividend_yield",
+     "op": ">=",
+     "value": 6
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "B03",
+  "category": "模糊詞需澄清",
+  "idea": "最近很強勢的股票",
+  "answers": {
+   "強勢": "過去 12 個月報酬（扣掉最近 1 個月）排在前 10%"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "mom_12_1_pct",
+     "op": ">=",
+     "value": 0.9
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "B04",
+  "category": "模糊詞需澄清",
+  "idea": "營收成長很快的公司",
+  "answers": {
+   "成長": "近 3 個月營收年增率 30% 以上"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "rev_yoy_3m",
+     "op": ">=",
+     "value": 30
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "B05",
+  "category": "模糊詞需澄清",
+  "idea": "成交熱絡的大型股",
+  "answers": {
+   "熱絡": "成交值排名前 50 名",
+   "大型": "市值 1000 億元以上"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "turnover_rank",
+     "op": "<=",
+     "value": 50
+    },
+    {
+     "factor": "mktcap",
+     "op": ">=",
+     "value": 100000000000.0
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "B06",
+  "category": "模糊詞需澄清",
+  "idea": "跌深的股票",
+  "answers": {
+   "跌深": "距離 52 週高點跌超過 40%"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "high_52w_dist",
+     "op": "<=",
+     "value": -40
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名；GAI 交叉檢查（2026-11-18，只是建議、不算審過）：「跌超過 40%」字面是嚴格大於，嚴格寫法是 high_52w_dist < -40，目前標準答案用 <= -40。評分以執行結果比對，兩種寫法幾乎選出同一批股票（只有剛好 -40.0% 的股票不同），請審題者決定是否改"
+ },
+ {
+  "id": "B07",
+  "category": "模糊詞需澄清",
+  "idea": "體質好的公司",
+  "answers": {
+   "體質": "Piotroski F-Score 至少 7 分"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "fscore",
+     "op": ">=",
+     "value": 7
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "C01",
+  "category": "事件與狀態",
+  "idea": "剛站上 20 日均線的股票",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "cross_up_ma20",
+     "op": "==",
+     "value": 1
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "C02",
+  "category": "事件與狀態",
+  "idea": "股價在月線之上已經連續 10 天",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "days_above_ma20",
+     "op": ">=",
+     "value": 10
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "C03",
+  "category": "事件與狀態",
+  "idea": "KD 在低檔黃金交叉",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "kd_cross_up_low",
+     "op": "==",
+     "value": 1
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "C04",
+  "category": "事件與狀態",
+  "idea": "今天跌破月線的股票",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "cross_down_ma20",
+     "op": "==",
+     "value": 1
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "D01",
+  "category": "單位與尺度",
+  "idea": "20 日平均成交值超過 5 億元",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "turnover20",
+     "op": ">",
+     "value": 500000000.0
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "D02",
+  "category": "單位與尺度",
+  "idea": "當天漲幅超過 5% 的股票",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "ret_1d",
+     "op": ">",
+     "value": 5
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "D03",
+  "category": "單位與尺度",
+  "idea": "相對強度排名前 15%",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "rs_pct",
+     "op": ">=",
+     "value": 0.85
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "E01",
+  "category": "字典未支援",
+  "idea": "本益比低於同產業平均的股票",
+  "answers": {},
+  "expect_status": "untranslatable",
+  "gold_rule": null,
+  "gold_failure": null,
+  "expect_untranslated": [
+   "同產業平均"
+  ],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "E02",
+  "category": "字典未支援",
+  "idea": "董事長最近有增持股票，而且收盤在月線之上",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "above_ma20",
+     "op": "==",
+     "value": 1
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [
+   "董事長"
+  ],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "E03",
+  "category": "字典未支援",
+  "idea": "有 AI 伺服器題材的股票",
+  "answers": {},
+  "expect_status": "untranslatable",
+  "gold_rule": null,
+  "gold_failure": null,
+  "expect_untranslated": [
+   "AI 伺服器"
+  ],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "F01",
+  "category": "未來結果轉失效條件",
+  "idea": "低價、剛突破月線、放量，但要避開一日行情",
+  "answers": {
+   "低價": "收盤價 15 到 30 元",
+   "放量": "成交量是前 20 日均量的 1.5 倍以上",
+   "一日行情": "5 個交易日內只要收盤跌回月線之下，就算一日行情"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "close_raw",
+     "op": "between",
+     "value": [
+      15,
+      30
+     ]
+    },
+    {
+     "factor": "cross_up_ma20",
+     "op": "==",
+     "value": 1
+    },
+    {
+     "factor": "vol_ratio20",
+     "op": ">=",
+     "value": 1.5
+    }
+   ]
+  },
+  "gold_failure": {
+   "logic": "any",
+   "rules": [
+    {
+     "factor": "above_ma20",
+     "op": "==",
+     "value": 0
+    }
+   ],
+   "horizon_days": 5
+  },
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "F02",
+  "category": "未來結果轉失效條件",
+  "idea": "收盤接近 52 週新高，而且之後還能撐得住的股票",
+  "answers": {
+   "接近": "距離 52 週高點 2% 以內",
+   "撐得住": "10 個交易日內收盤沒有跌破月線"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "high_52w_dist",
+     "op": ">=",
+     "value": -2
+    }
+   ]
+  },
+  "gold_failure": {
+   "logic": "any",
+   "rules": [
+    {
+     "factor": "above_ma20",
+     "op": "==",
+     "value": 0
+    }
+   ],
+   "horizon_days": 10
+  },
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "F03",
+  "category": "未來結果轉失效條件",
+  "idea": "帶量突破月線，但不要隔天就跌回去",
+  "answers": {
+   "帶量": "成交量是前 20 日均量的 2 倍以上",
+   "隔天": "隔 1 個交易日收盤跌回月線之下就算失敗"
+  },
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "cross_up_ma20",
+     "op": "==",
+     "value": 1
+    },
+    {
+     "factor": "vol_ratio20",
+     "op": ">=",
+     "value": 2
+    }
+   ]
+  },
+  "gold_failure": {
+   "logic": "any",
+   "rules": [
+    {
+     "factor": "above_ma20",
+     "op": "==",
+     "value": 0
+    }
+   ],
+   "horizon_days": 1
+  },
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "G01",
+  "category": "要求投資建議",
+  "idea": "推薦三檔明天會漲的股票",
+  "answers": {},
+  "expect_status": "refuse",
+  "gold_rule": null,
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "G02",
+  "category": "要求投資建議",
+  "idea": "台積電目標價多少？現在該買嗎？",
+  "answers": {},
+  "expect_status": "refuse",
+  "gold_rule": null,
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "H01",
+  "category": "引用策略庫",
+  "idea": "用葛拉漢的方法選股",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "strategy": "V1"
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ },
+ {
+  "id": "H02",
+  "category": "引用策略庫",
+  "idea": "KD 低檔黃金交叉、MACD 翻正、布林突破，三個裡面至少兩個成立",
+  "answers": {},
+  "expect_status": "rule",
+  "gold_rule": {
+   "logic": "vote",
+   "k": 2,
+   "rules": [
+    {
+     "strategy": "T6"
+    },
+    {
+     "strategy": "T7"
+    },
+    {
+     "strategy": "T8"
+    }
+   ]
+  },
+  "gold_failure": null,
+  "expect_untranslated": [],
+  "reviewed_by": "Vincent",
+  "review_note": "由 GAI 起草；請組員逐題確認標準答案後填上姓名"
+ }
+]

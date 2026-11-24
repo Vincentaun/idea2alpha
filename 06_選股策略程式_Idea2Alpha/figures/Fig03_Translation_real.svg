@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="590.4pt" height="460.8pt" viewBox="0 0 590.4 460.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-20T14:56:22.817207</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 460.8 
+L 590.4 460.8 
+L 590.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.334084 122.046935 
+L 274.983996 122.046935 
+Q 283.662876 122.046935 283.662876 115.273175 
+L 283.662876 42.965545 
+Q 283.662876 36.191785 274.983996 36.191785 
+L 20.334084 36.191785 
+Q 11.655204 36.191785 11.655204 42.965545 
+L 11.655204 115.273175 
+Q 11.655204 122.046935 20.334084 122.046935 
+z
+" clip-path="url(#p2b2a98793e)" style="fill: #f0f5f8; stroke: #d4dee5; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 315.416004 289.133015 
+L 570.065916 289.133015 
+Q 578.744796 289.133015 578.744796 282.359255 
+L 578.744796 42.965545 
+Q 578.744796 36.191785 570.065916 36.191785 
+L 315.416004 36.191785 
+Q 306.737124 36.191785 306.737124 42.965545 
+L 306.737124 282.359255 
+Q 306.737124 289.133015 315.416004 289.133015 
+z
+" clip-path="url(#p2b2a98793e)" style="fill: #f0f5f8; stroke: #d4dee5; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 20.334084 343.323095 
+L 274.983996 343.323095 
+Q 283.662876 343.323095 283.662876 336.549335 
+L 283.662876 146.829865 
+Q 283.662876 140.056105 274.983996 140.056105 
+L 20.334084 140.056105 
+Q 11.655204 140.056105 11.655204 146.829865 
+L 11.655204 336.549335 
+Q 11.655204 343.323095 20.334084 343.323095 
+z
+" clip-path="url(#p2b2a98793e)" style="fill: #f0f5f8; stroke: #d4dee5; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 315.416004 442.671575 
+L 570.065916 442.671575 
+Q 578.744796 442.671575 578.744796 435.897815 
+L 578.744796 309.400105 
+Q 578.744796 302.626345 570.065916 302.626345 
+L 315.416004 302.626345 
+Q 306.737124 302.626345 306.737124 309.400105 
+L 306.737124 435.897815 
+Q 306.737124 442.671575 315.416004 442.671575 
+z
+" clip-path="url(#p2b2a98793e)" style="fill: #f0f5f8; stroke: #af6d13; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="11.68992" y="20.871135" transform="rotate(-0 11.68992 20.871135)">Translating an ambiguous idea into user-confirmed conditions</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="23.26176" y="54.792543" transform="rotate(-0 23.26176 54.792543)">A</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="46.40544" y="54.792543" transform="rotate(-0 46.40544 54.792543)">User's idea</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="23.26176" y="79.790756" transform="rotate(-0 23.26176 79.790756)">“低價、剛突破月線、放量，但要避開一日行情”</text>
+   </g>
+   <g id="text_5">
+    <text style="font-style: italic; font-size: 9.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #5e6c78" transform="translate(23.26176 101.521363)">“Low-priced stocks that just broke above MA20 with a</text>
+    <text style="font-style: italic; font-size: 9.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #5e6c78" transform="translate(23.26176 111.487159)">volume surge, but avoid one-day rallies”</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="318.34368" y="54.792543" transform="rotate(-0 318.34368 54.792543)">B</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="341.48736" y="54.964418" transform="rotate(-0 341.48736 54.964418)">AI asks before choosing thresholds</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.459459px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="318.34368" y="68.580998" transform="rotate(-0 318.34368 68.580998)">請問「低價」的具體股價門檻是多少？</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.293694px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="329.91552" y="84.147488" transform="rotate(-0 329.91552 84.147488)">○  收盤價低於 30 元</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.293694px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="329.91552" y="97.996064" transform="rotate(-0 329.91552 97.996064)">○  收盤價低於 50 元</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7.293694px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="329.91552" y="111.84464" transform="rotate(-0 329.91552 111.84464)">○  收盤價低於 100 元</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 7.293694px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="329.91552" y="125.686378" transform="rotate(-0 329.91552 125.686378)">→  Answer: 收盤價 15 到 30 元</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.459459px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="318.34368" y="146.432452" transform="rotate(-0 318.34368 146.432452)">請問「放量」是指成交量達到前 20 日均量的幾倍？</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7.293694px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="329.91552" y="162.013758" transform="rotate(-0 329.91552 162.013758)">●  成交量為 20 日均量的 1.5 倍以上</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.293694px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="329.91552" y="175.862334" transform="rotate(-0 329.91552 175.862334)">○  成交量為 20 日均量的 2 倍以上</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.293694px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="329.91552" y="189.71091" transform="rotate(-0 329.91552 189.71091)">○  成交量為 20 日均量的 3 倍以上</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.459459px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(318.34368 210.523911)">請問「避開一日行情」希望在突破後幾天內不能跌破什麼條件（</text>
+    <text style="font-size: 7.459459px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(318.34368 218.546327)">作為失效條件）？</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 7.293694px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="329.91552" y="241.736641" transform="rotate(-0 329.91552 241.736641)">●  5日內若跌破月線則視為失效</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7.293694px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="329.91552" y="255.585217" transform="rotate(-0 329.91552 255.585217)">○  10日內若跌破月線則視為失效</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="318.34368" y="278.34799" transform="rotate(-0 318.34368 278.34799)">● = option chosen by the test item's scripted answer</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="23.26176" y="158.656863" transform="rotate(-0 23.26176 158.656863)">C</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="46.40544" y="158.828738" transform="rotate(-0 46.40544 158.828738)">Confirmed rule (executed by the engine)</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="23.26176" y="183.244483" transform="rotate(-0 23.26176 183.244483)">+  Close (NT$) between 15 and 30</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="23.26176" y="212.650779" transform="rotate(-0 23.26176 212.650779)">+  Crossed above MA20 today</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="23.26176" y="242.286763" transform="rotate(-0 23.26176 242.286763)">+  Volume / prior 20-day avg ≥ 1.5</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #af6d13" x="23.26176" y="271.607309" transform="rotate(-0 23.26176 271.607309)">Failure condition</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="23.26176" y="294.80245" transform="rotate(-0 23.26176 294.80245)">Within 5 trading days: Close back below MA20</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #5e6c78" transform="translate(23.26176 325.87207)">Model gemini-3.5-flash-lite · prompt translator_v1@b4e1765e</text>
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #5e6c78" transform="translate(23.26176 334.26432)">· graded: correct</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #af6d13" x="318.34368" y="321.227103" transform="rotate(-0 318.34368 321.227103)">D</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #af6d13" x="341.48736" y="321.398978" transform="rotate(-0 341.48736 321.398978)">Rejected interpretation</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="318.34368" y="340.886117" transform="rotate(-0 318.34368 340.886117)">Idea: “剛站上 20 日均線的股票”</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(318.34368 365.801465)">Nothing was rejected in this run: the model's first rule</text>
+    <text style="font-size: 8.8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(318.34368 375.03294)">passed the checks, so there is no repair to show.</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="318.34368" y="397.315083" transform="rotate(-0 318.34368 397.315083)">Accepted:  Crossed above MA20 today</text>
+   </g>
+  </g>
+  <g id="text_34">
+   <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="5.904" y="457.863975" transform="rotate(-0 5.904 457.863975)">Source: translator_eval_20261120_142344.jsonl (logged model output)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2b2a98793e">
+   <rect x="5.904" y="4.608" width="578.592" height="451.584"/>
+  </clipPath>
+ </defs>
+</svg>

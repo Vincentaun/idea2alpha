@@ -1,0 +1,113 @@
+{
+  "價值品質": {
+    "logic": "all",
+    "rules": [
+      {
+        "strategy": "V1"
+      },
+      {
+        "strategy": "V3"
+      },
+      {
+        "strategy": "Q1"
+      }
+    ]
+  },
+  "成長動能": {
+    "logic": "all",
+    "rules": [
+      {
+        "strategy": "G1"
+      },
+      {
+        "strategy": "G2"
+      },
+      {
+        "strategy": "T2"
+      }
+    ]
+  },
+  "籌碼跟單": {
+    "logic": "all",
+    "rules": [
+      {
+        "strategy": "C1"
+      },
+      {
+        "strategy": "C2"
+      },
+      {
+        "strategy": "L1"
+      }
+    ]
+  },
+  "技術共振": {
+    "logic": "vote",
+    "k": 2,
+    "rules": [
+      {
+        "strategy": "T5"
+      },
+      {
+        "strategy": "T6"
+      },
+      {
+        "strategy": "T7"
+      },
+      {
+        "strategy": "T8"
+      }
+    ]
+  },
+  "存股安心": {
+    "logic": "all",
+    "rules": [
+      {
+        "strategy": "Q2"
+      },
+      {
+        "strategy": "Q3"
+      }
+    ]
+  },
+  "CAN SLIM＋風險濾網": {
+    "logic": "filter",
+    "main": {
+      "strategy": "G1"
+    },
+    "filters": [
+      {
+        "factor": "var5_rank",
+        "op": "<",
+        "value": 0.8,
+        "label": "排除下檔風險最高 20%"
+      },
+      {
+        "strategy": "L4"
+      }
+    ]
+  },
+  "規劃書範例（營收＋法人＋風險）": {
+    "logic": "all",
+    "rules": [
+      {
+        "factor": "rev_yoy_3m",
+        "op": ">",
+        "value": 20,
+        "label": "近3月營收年增率 > 20%"
+      },
+      {
+        "factor": "inst_net_buy_days",
+        "op": ">=",
+        "value": 3,
+        "label": "投信或外資連買 ≥ 3 日"
+      },
+      {
+        "factor": "var5_rank",
+        "op": "<",
+        "value": 0.8,
+        "label": "排除下檔風險最高 20%"
+      }
+    ]
+  }
+}

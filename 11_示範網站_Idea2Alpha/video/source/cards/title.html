@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Idea2Alpha title</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,500;0,700;0,800;1,400&family=LXGW+WenKai+TC:wght@400;700&display=swap">
+<style>
+  :root { --paper: #ECF0F5; --ink: #14213D; --ink-2: #44516A; --ink-3: #5E6B83; --line: #D2D9E4; --mark: #FFD84D; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1440px; height: 810px; overflow: hidden; background: var(--paper); color: var(--ink); font-family: "Atkinson Hyperlegible Next", system-ui, sans-serif; }
+  .page { position: absolute; inset: 0; padding: 0 150px 170px; display: grid; align-content: center; gap: 22px; }
+  .brand { font-weight: 800; font-size: 116px; letter-spacing: -0.03em; line-height: 1; }
+  .brand .hl { position: relative; padding: 0 0.12em; margin: 0 0.02em; color: var(--ink); }
+  .brand .hl::before { content: ""; position: absolute; inset: 0.06em 0 0.02em; background: var(--mark); border-radius: 8px; z-index: -1; transform-origin: left center; transform: scaleX(0); }
+  .head { font-weight: 800; font-size: 58px; letter-spacing: -0.02em; line-height: 1.08; max-width: 18ch; }
+  .tag { font-style: italic; font-size: 28px; color: var(--ink-2); }
+  .kai { font-family: "LXGW WenKai TC", serif; font-size: 30px; color: var(--ink-2); }
+  .foot { position: absolute; left: 150px; right: 150px; bottom: 150px; border-top: 1px solid var(--line); padding-top: 22px; display: grid; gap: 6px; font-size: 21px; color: var(--ink-2); }
+  .foot b { color: var(--ink); font-weight: 700; }
+  .page > *, .foot { opacity: 0; }
+  .go .page > *, .go .foot { animation: rise 0.7s cubic-bezier(.2,.8,.2,1) forwards; }
+  .go .head { animation-delay: 0.35s; } .go .tag { animation-delay: 0.6s; } .go .kai { animation-delay: 0.8s; } .go .foot { animation-delay: 1.05s; }
+  .go .brand .hl::before { animation: sweep 0.5s 0.45s cubic-bezier(.3,.7,.3,1) forwards; }
+  @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+  @keyframes sweep { to { transform: scaleX(1); } }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="brand">Idea<span class="hl">2</span>Alpha</div>
+    <div class="head">Test your stock idea before you trust it</div>
+    <div class="tag">Turn one sentence into conditions that can be proven wrong.</div>
+    <div class="kai" lang="zh-Hant">先檢驗，再相信你的選股想法</div>
+  </div>
+  <div class="foot">
+    <div><b>Team Idea2Alpha</b>, 2026 International Generative Artificial Intelligence Innovation Application Competition</div>
+    <div>Department of Computer Science and Information Engineering, Chang Jung Christian University, Taiwan</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "id": "C2",
+  "name": "大戶持股增加",
+  "category": "籌碼",
+  "source": "台股集保股權分散資料",
+  "periods": [
+    "swing"
+  ],
+  "data": [
+    "集保股權分散表（FinMind 付費）"
+  ],
+  "requires": "FinMind Sponsor 以上",
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "big_pct_up_2w",
+      "op": "==",
+      "value": 1,
+      "label": "400 張以上大戶持股比例連 2 週上升"
+    },
+    {
+      "factor": "holders_down",
+      "op": "==",
+      "value": 1,
+      "label": "股東人數下降"
+    }
+  ]
+}

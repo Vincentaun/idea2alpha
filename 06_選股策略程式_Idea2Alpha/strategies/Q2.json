@@ -1,0 +1,34 @@
+{
+  "id": "Q2",
+  "name": "高股息存股",
+  "category": "品質與股利",
+  "source": "台灣存股族常用",
+  "periods": [
+    "long"
+  ],
+  "data": [
+    "股利",
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "dividend_yield",
+      "op": ">=",
+      "value": 5,
+      "label": "現金殖利率 ≥ 5%"
+    },
+    {
+      "factor": "dividend_years",
+      "op": ">=",
+      "value": 10,
+      "label": "連續配息 ≥ 10 年"
+    },
+    {
+      "factor": "payout_cv_5y",
+      "op": "<=",
+      "value": 0.3,
+      "label": "近 5 年配發率變異係數 ≤ 0.3"
+    }
+  ]
+}

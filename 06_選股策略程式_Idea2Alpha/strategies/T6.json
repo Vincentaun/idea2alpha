@@ -1,0 +1,21 @@
+{
+  "id": "T6",
+  "name": "KD 低檔黃金交叉",
+  "category": "動能與技術",
+  "source": "台股常見",
+  "periods": [
+    "short"
+  ],
+  "data": [
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "kd_cross_up_low",
+      "op": "==",
+      "value": 1,
+      "label": "K 值在 20 以下向上穿越 D 值"
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+ "stock_id": "（已遮蔽）",
+ "as_of": "2026-07-28",
+ "fact_sheet": {
+  "stock_id": "（已遮蔽）",
+  "as_of": "2026-07-28",
+  "facts": [
+   {
+    "id": "F01",
+    "label": "收盤價",
+    "label_en": "Close",
+    "value": 21.75,
+    "shown": "21.75",
+    "unit": "元",
+    "as_of": "2026-07-28",
+    "source": "close_raw",
+    "tag": "level"
+   },
+   {
+    "id": "F02",
+    "label": "收盤相對 20 日均線",
+    "label_en": "Close vs. MA20",
+    "value": 2.4,
+    "shown": "2.4",
+    "unit": "%",
+    "as_of": "2026-07-28",
+    "source": "pct_vs_ma20",
+    "tag": "level"
+   },
+   {
+    "id": "F03",
+    "label": "當日向上突破 20 日均線",
+    "label_en": "Crossed above MA20 today",
+    "value": 1,
+    "shown": "是",
+    "unit": "是/否",
+    "as_of": "2026-07-28",
+    "source": "cross_up_ma20",
+    "tag": "event"
+   },
+   {
+    "id": "F04",
+    "label": "連續收在 20 日均線之上",
+    "label_en": "Consecutive days above MA20",
+    "value": 1,
+    "shown": "1",
+    "unit": "日",
+    "as_of": "2026-07-28",
+    "source": "days_above_ma20",
+    "tag": "multi_day"
+   },
+   {
+    "id": "F05",
+    "label": "成交量 ÷ 前 20 日均量",
+    "label_en": "Volume / prior 20-day average",
+    "value": 2.3,
+    "shown": "2.30",
+    "unit": "倍",
+    "as_of": "2026-07-28",
+    "source": "vol_ratio20",
+    "tag": "level"
+   },
+   {
+    "id": "F06",
+    "label": "近 5 日均量 ÷ 再之前 20 日均量",
+    "label_en": "5-day avg volume / prior 20-day avg",
+    "value": 0.77,
+    "shown": "0.77",
+    "unit": "倍",
+    "as_of": "2026-07-28",
+    "source": "vol5_ratio20",
+    "tag": "multi_day"
+   },
+   {
+    "id": "F07",
+    "label": "當日漲跌幅",
+    "label_en": "1-day return",
+    "value": 2.4,
+    "shown": "2.4",
+    "unit": "%",
+    "as_of": "2026-07-28",
+    "source": "ret_1d",
+    "tag": "level"
+   },
+   {
+    "id": "F08",
+    "label": "近 5 日漲跌幅",
+    "label_en": "5-day return",
+    "value": 1.4,
+    "shown": "1.4",
+    "unit": "%",
+    "as_of": "2026-07-28",
+    "source": "ret_5d",
+    "tag": "multi_day"
+   },
+   {
+    "id": "F09",
+    "label": "距 52 週高點",
+    "label_en": "Distance from 52-week high",
+    "value": -8.6,
+    "shown": "-8.6",
+    "unit": "%",
+    "as_of": "2026-07-28",
+    "source": "high_52w_dist",
+    "tag": "level"
+   },
+   {
+    "id": "F10",
+    "label": "12-1 月報酬在股票池的百分位",
+    "label_en": "12-1 momentum percentile",
+    "value": 12,
+    "shown": "12",
+    "unit": "百分位",
+    "as_of": "2026-07-28",
+    "source": "mom_12_1_pct",
+    "tag": "benchmark"
+   },
+   {
+    "id": "F11",
+    "label": "近 1 年年化波動度",
+    "label_en": "1-year volatility",
+    "value": 25.7,
+    "shown": "25.7",
+    "unit": "%",
+    "as_of": "2026-07-28",
+    "source": "vol_1y",
+    "tag": "risk"
+   },
+   {
+    "id": "F12",
+    "label": "近 1 年日報酬 5% 分位",
+    "label_en": "1-day 5% VaR (1-year)",
+    "value": -2.7,
+    "shown": "-2.7",
+    "unit": "%",
+    "as_of": "2026-07-28",
+    "source": "var5",
+    "tag": "risk"
+   },
+   {
+    "id": "F13",
+    "label": "20 日成交值排名",
+    "label_en": "20-day turnover rank",
+    "value": 183,
+    "shown": "183",
+    "unit": "名",
+    "as_of": "2026-07-28",
+    "source": "turnover_rank",
+    "tag": "benchmark"
+   }
+  ]
+ },
+ "thesis": "",
+ "bull": {
+  "claims": [
+   {
+    "text": "當日股價以 21.75 元向上突破 20 日均線，且收盤相對 20 日均線為 2.4 %，顯示短線動能轉強 [F01, F02, F03, F04]。",
+    "cites": [
+     "F01",
+     "F02",
+     "F03",
+     "F04"
+    ]
+   },
+   {
+    "text": "成交量放大至前 20 日均量的 2.30 倍，且當日漲跌幅為 2.4 %，顯示伴隨成交量能增溫 [F05, F07]。",
+    "cites": [
+     "F05",
+     "F07"
+    ]
+   },
+   {
+    "text": "距離 52 週高點僅 -8.6 %，且 20 日成交值排名為 183 名，顯示市場關注度與位階維持在相對高水準 [F09, F13]。",
+    "cites": [
+     "F09",
+     "F13"
+    ]
+   }
+  ],
+  "failure_condition": {
+   "logic": "any",
+   "rules": [
+    {
+     "factor": "days_above_ma20",
+     "op": "<=",
+     "value": 0
+    }
+   ],
+   "horizon_days": 5
+  }
+ },
+ "bear": {
+  "claims": [
+   {
+    "text": "雖然當日向上突破 20 日均線且收在 21.75 元，但近 5 日均量對再之前 20 日均量僅有 0.77 倍，顯示中短期量能並未全面放大，突破的追價力道可能不足 [F03, F05, F06]。",
+    "cites": [
+     "F03",
+     "F05",
+     "F06"
+    ]
+   },
+   {
+    "text": "該股票在 12-1 月報酬的股票池百分位僅為 12 百分位，屬於長線相對落後族群，且距離 52 週高點還有 -8.6 %，上檔仍有套牢賣壓需要消化 [F09, F10]。",
+    "cites": [
+     "F09",
+     "F10"
+    ]
+   },
+   {
+    "text": "雖然當日漲幅為 2.4 %、連續收在 20 日均線之上為 1 日，但近 5 日漲跌幅僅有 1.4 %，顯示短線漲勢牛皮，缺乏持續上攻的動能 [F04, F07, F08]。",
+    "cites": [
+     "F04",
+     "F07",
+     "F08"
+    ]
+   }
+  ],
+  "failure_condition": {
+   "logic": "any",
+   "rules": [
+    {
+     "factor": "days_above_ma20",
+     "op": "<=",
+     "value": 0
+    }
+   ],
+   "horizon_days": 5
+  }
+ },
+ "judge": {
+  "disagreements": [
+   "多方認為當日向上突破 20 日且成交量達 2.30 倍顯示短線動能轉強、關注度維持高檔；空方則強調中短期量能（近 5 日均量對再之前 20 日均量僅 0.77 倍）未全面放大，且長線動能（12-1 月報酬百分位僅 12%）與短線漲幅相對落後，上檔仍有套牢賣壓。"
+  ],
+  "insufficient": [
+   "多方第 1 點：「加速／放緩」需要同一指標兩個時點的事實",
+   "空方第 1 點：數字 21.75 不在引用的事實中"
+  ],
+  "invalidation": {
+   "logic": "any",
+   "rules": [
+    {
+     "factor": "ret_1d",
+     "op": "<=",
+     "value": 0
+    },
+    {
+     "factor": "vol_ratio20",
+     "op": "<",
+     "value": 1
+    }
+   ],
+   "horizon_days": 5
+  }
+ },
+ "bull_checks": [
+  {
+   "text": "當日股價以 21.75 元向上突破 20 日均線，且收盤相對 20 日均線為 2.4 %，顯示短線動能轉強 [F01, F02, F03, F04]。",
+   "cites": [
+    "F01",
+    "F02",
+    "F03",
+    "F04"
+   ],
+   "verdict": "insufficient",
+   "reasons": [
+    "「加速／放緩」需要同一指標兩個時點的事實"
+   ],
+   "reasons_en": [
+    "“accelerating/slowing” needs the same measure at two dates"
+   ]
+  },
+  {
+   "text": "成交量放大至前 20 日均量的 2.30 倍，且當日漲跌幅為 2.4 %，顯示伴隨成交量能增溫 [F05, F07]。",
+   "cites": [
+    "F05",
+    "F07"
+   ],
+   "verdict": "supported",
+   "reasons": [],
+   "reasons_en": []
+  },
+  {
+   "text": "距離 52 週高點僅 -8.6 %，且 20 日成交值排名為 183 名，顯示市場關注度與位階維持在相對高水準 [F09, F13]。",
+   "cites": [
+    "F09",
+    "F13"
+   ],
+   "verdict": "supported",
+   "reasons": [],
+   "reasons_en": []
+  }
+ ],
+ "bear_checks": [
+  {
+   "text": "雖然當日向上突破 20 日均線且收在 21.75 元，但近 5 日均量對再之前 20 日均量僅有 0.77 倍，顯示中短期量能並未全面放大，突破的追價力道可能不足 [F03, F05, F06]。",
+   "cites": [
+    "F03",
+    "F05",
+    "F06"
+   ],
+   "verdict": "unsupported",
+   "reasons": [
+    "數字 21.75 不在引用的事實中"
+   ],
+   "reasons_en": [
+    "the number 21.75 is not in the cited facts"
+   ]
+  },
+  {
+   "text": "該股票在 12-1 月報酬的股票池百分位僅為 12 百分位，屬於長線相對落後族群，且距離 52 週高點還有 -8.6 %，上檔仍有套牢賣壓需要消化 [F09, F10]。",
+   "cites": [
+    "F09",
+    "F10"
+   ],
+   "verdict": "supported",
+   "reasons": [],
+   "reasons_en": []
+  },
+  {
+   "text": "雖然當日漲幅為 2.4 %、連續收在 20 日均線之上為 1 日，但近 5 日漲跌幅僅有 1.4 %，顯示短線漲勢牛皮，缺乏持續上攻的動能 [F04, F07, F08]。",
+   "cites": [
+    "F04",
+    "F07",
+    "F08"
+   ],
+   "verdict": "supported",
+   "reasons": [],
+   "reasons_en": []
+  }
+ ],
+ "allowed_factors": [
+  {
+   "factor": "close_raw",
+   "name": "收盤價（未還原）",
+   "unit": "元",
+   "now": 21.75
+  },
+  {
+   "factor": "cross_up_ma20",
+   "name": "剛向上突破 20 日均線（事件：昨日收盤 ≤ 昨日 MA20 且今日收盤 > 今日 MA20）",
+   "unit": "0/1",
+   "now": 1.0
+  },
+  {
+   "factor": "days_above_ma20",
+   "name": "連續收在 20 日均線之上的天數",
+   "unit": "日",
+   "now": 1.0
+  },
+  {
+   "factor": "vol_ratio20",
+   "name": "成交量 ÷ 前 20 日均量",
+   "unit": "倍",
+   "now": 2.295116195910809
+  },
+  {
+   "factor": "vol5_ratio20",
+   "name": "近 5 日均量 ÷ 再之前 20 日均量",
+   "unit": "倍",
+   "now": 0.7706525338037906
+  },
+  {
+   "factor": "ret_1d",
+   "name": "當日漲跌幅",
+   "unit": "%",
+   "now": 2.35294117647058
+  },
+  {
+   "factor": "ret_5d",
+   "name": "近 5 日漲跌幅",
+   "unit": "%",
+   "now": 1.3986013986013957
+  },
+  {
+   "factor": "high_52w_dist",
+   "name": "距 52 週高點",
+   "unit": "%",
+   "now": -8.619724946255559
+  },
+  {
+   "factor": "mom_12_1_pct",
+   "name": "12-1 月報酬百分位（1=最強）",
+   "unit": "0~1",
+   "now": 0.12374581939799331
+  },
+  {
+   "factor": "vol_1y",
+   "name": "近 1 年年化波動度",
+   "unit": "%",
+   "now": 25.70488980482088
+  },
+  {
+   "factor": "var5",
+   "name": "近 1 年日報酬 5% 分位（VaR）",
+   "unit": "%",
+   "now": -2.724857427076194
+  },
+  {
+   "factor": "turnover_rank",
+   "name": "成交值排名（1=最大）",
+   "unit": "名",
+   "now": 183.0
+  }
+ ],
+ "format_checks": {
+  "bull_v1": {
+   "repaired": false,
+   "intercepted": [],
+   "issues": []
+  },
+  "bear_v1": {
+   "repaired": false,
+   "intercepted": [],
+   "issues": []
+  },
+  "judge_v1": {
+   "repaired": false,
+   "intercepted": [],
+   "issues": []
+  }
+ },
+ "models": {
+  "debate:bull_v1": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "prompt_version": "bull_v1@94c63e1e",
+   "created": "2026-11-19T17:04:02+00:00"
+  },
+  "debate:bear_v1": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "prompt_version": "bear_v1@d464cfd2",
+   "created": "2026-11-19T17:04:25+00:00"
+  },
+  "debate:judge_v1": {
+   "provider": "gemini",
+   "model": "gemini-3.5-flash-lite",
+   "prompt_version": "judge_v1@ee4ef802",
+   "created": "2026-11-19T17:05:10+00:00"
+  }
+ }
+}

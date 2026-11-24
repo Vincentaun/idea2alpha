@@ -1,0 +1,82 @@
+{
+ "idea": "剛站上 20 日均線的股票",
+ "mode": "pipeline",
+ "prompt_version": "translator_v1@b4e1765e",
+ "turns": [
+  {
+   "model_output": {
+    "status": "rule",
+    "questions": [],
+    "rule": {
+     "logic": "all",
+     "rules": [
+      {
+       "factor": "above_ma20",
+       "op": "==",
+       "value": 1
+      }
+     ]
+    },
+    "failure_condition": null,
+    "untranslated": [],
+    "assumptions": []
+   },
+   "raw": "{\"status\": \"rule\", \"questions\": [], \"rule\": {\"logic\": \"all\", \"rules\": [{\"factor\": \"above_ma20\", \"op\": \"==\", \"value\": 1}]}, \"failure_condition\": null, \"untranslated\": [], \"assumptions\": []}",
+   "model": "replay",
+   "provider": "replay",
+   "created": "2026-11-17T15:20:03+00:00"
+  },
+  {
+   "model_output": {
+    "status": "rule",
+    "questions": [],
+    "rule": {
+     "logic": "all",
+     "rules": [
+      {
+       "factor": "cross_up_ma20",
+       "op": "==",
+       "value": 1
+      }
+     ]
+    },
+    "failure_condition": null,
+    "untranslated": [],
+    "assumptions": []
+   },
+   "raw": "{\"status\": \"rule\", \"questions\": [], \"rule\": {\"logic\": \"all\", \"rules\": [{\"factor\": \"cross_up_ma20\", \"op\": \"==\", \"value\": 1}]}, \"failure_condition\": null, \"untranslated\": [], \"assumptions\": []}",
+   "repair": true,
+   "model": "replay",
+   "provider": "replay",
+   "created": "2026-11-17T15:20:03+00:00"
+  }
+ ],
+ "asked": false,
+ "model": "replay",
+ "provider": "replay",
+ "intercepted": [
+  {
+   "level": "error",
+   "code": "EVENT_AS_STATE",
+   "message": "原句是「剛突破／跌破月線」（事件），條件卻寫成「在月線之上」（狀態）；應使用 cross_up_ma20 或 cross_down_ma20"
+  }
+ ],
+ "final": {
+  "status": "rule",
+  "questions": [],
+  "rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "cross_up_ma20",
+     "op": "==",
+     "value": 1
+    }
+   ]
+  },
+  "failure_condition": null,
+  "untranslated": [],
+  "assumptions": []
+ },
+ "issues": []
+}

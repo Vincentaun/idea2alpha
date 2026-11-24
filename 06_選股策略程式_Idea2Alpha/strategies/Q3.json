@@ -1,0 +1,21 @@
+{
+  "id": "Q3",
+  "name": "低波動",
+  "category": "品質與股利",
+  "source": "Ang, Hodrick, Xing & Zhang (2006), Journal of Finance",
+  "periods": [
+    "long"
+  ],
+  "data": [
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "vol_1y_pct",
+      "op": "<=",
+      "value": 0.2,
+      "label": "近 1 年波動度最低 20%"
+    }
+  ]
+}

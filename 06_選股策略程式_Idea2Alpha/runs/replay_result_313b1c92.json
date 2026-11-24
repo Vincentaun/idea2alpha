@@ -1,0 +1,513 @@
+{
+ "lock_file": "replay_lock_313b1c92.json",
+ "lock_sha256": "313b1c9237579fae872e9cefe40ec3d86d7880121467823cad334526eaa91961",
+ "declared_at": "2026-11-17T15:18:43+00:00",
+ "revealed_at": "2026-11-17T15:18:58+00:00",
+ "lock": {
+  "title": "低價、剛突破月線、放量；5 個交易日內跌回月線即視為一日行情",
+  "period": "swing",
+  "rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "close_raw",
+     "op": "between",
+     "value": [
+      15,
+      30
+     ],
+     "label": "收盤價 15–30 元（使用者選定）"
+    },
+    {
+     "factor": "cross_up_ma20",
+     "op": "==",
+     "value": 1,
+     "label": "昨日收盤 ≤ 昨日 MA20，今日收盤 > 今日 MA20"
+    },
+    {
+     "factor": "vol_ratio20",
+     "op": ">=",
+     "value": 1.5,
+     "label": "成交量 ≥ 前 20 日均量 1.5 倍（使用者選定）"
+    }
+   ]
+  },
+  "failure_condition": {
+   "logic": "any",
+   "rules": [
+    {
+     "factor": "above_ma20",
+     "op": "==",
+     "value": 0,
+     "label": "收盤跌回 MA20 之下"
+    }
+   ],
+   "horizon_days": 5
+  },
+  "window": {
+   "start": "2026-07-01",
+   "end": "2026-09-30"
+  },
+  "selection": "期間內每一個交易日、股票池（當日成交值前 300 名）內所有符合條件的股票，全部列入",
+  "detail_cases": "圖中詳列的兩例：依訊號日先後，第一個 held 與第一個 failed；同日以成交值排名較前者優先",
+  "data_rule": "每個訊號只用訊號日收盤以前的資料；觀察期從訊號日的下一個交易日開始",
+  "declared_at": "2026-11-17T15:18:43+00:00"
+ },
+ "n_signals": 8,
+ "counts": {
+  "held": 5,
+  "failed": 3
+ },
+ "detail": {
+  "held": {
+   "signal_date": "2026-07-28",
+   "stock_id": "2610",
+   "turnover_rank": 183.0,
+   "signal_close": 21.75,
+   "signal_vol_ratio20": 2.295116195910809,
+   "signal_pct_vs_ma20": 2.396297761702071,
+   "status": "held",
+   "fail_day": null,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-07-29",
+     "close": 21.7,
+     "ret_vs_signal_pct": -0.22988505747126853,
+     "pct_vs_ma20": 2.424153731954104,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-07-30",
+     "close": 21.7,
+     "ret_vs_signal_pct": -0.22988505747126853,
+     "pct_vs_ma20": 2.420753932142672,
+     "failure_true": false
+    },
+    {
+     "day": 3,
+     "date": "2026-07-31",
+     "close": 22.4,
+     "ret_vs_signal_pct": 2.9885057471264354,
+     "pct_vs_ma20": 5.618577377076228,
+     "failure_true": false
+    },
+    {
+     "day": 4,
+     "date": "2026-08-03",
+     "close": 22.45,
+     "ret_vs_signal_pct": 3.218390804597693,
+     "pct_vs_ma20": 5.663997593017123,
+     "failure_true": false
+    },
+    {
+     "day": 5,
+     "date": "2026-08-04",
+     "close": 22.45,
+     "ret_vs_signal_pct": 3.218390804597693,
+     "pct_vs_ma20": 5.450523164578036,
+     "failure_true": false
+    }
+   ]
+  },
+  "failed": {
+   "signal_date": "2026-08-03",
+   "stock_id": "2812",
+   "turnover_rank": 299.0,
+   "signal_close": 20.65,
+   "signal_vol_ratio20": 1.7149562211091478,
+   "signal_pct_vs_ma20": 0.5477784540474762,
+   "status": "failed",
+   "fail_day": 2,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-08-04",
+     "close": 18.9,
+     "ret_vs_signal_pct": -0.42149631190727677,
+     "pct_vs_ma20": 0.12081401375858558,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-08-05",
+     "close": 18.8,
+     "ret_vs_signal_pct": -0.9483667017913588,
+     "pct_vs_ma20": -0.36142147821950354,
+     "failure_true": true
+    }
+   ]
+  }
+ },
+ "cases": [
+  {
+   "signal_date": "2026-07-28",
+   "stock_id": "2610",
+   "turnover_rank": 183.0,
+   "signal_close": 21.75,
+   "signal_vol_ratio20": 2.295116195910809,
+   "signal_pct_vs_ma20": 2.396297761702071,
+   "status": "held",
+   "fail_day": null,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-07-29",
+     "close": 21.7,
+     "ret_vs_signal_pct": -0.22988505747126853,
+     "pct_vs_ma20": 2.424153731954104,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-07-30",
+     "close": 21.7,
+     "ret_vs_signal_pct": -0.22988505747126853,
+     "pct_vs_ma20": 2.420753932142672,
+     "failure_true": false
+    },
+    {
+     "day": 3,
+     "date": "2026-07-31",
+     "close": 22.4,
+     "ret_vs_signal_pct": 2.9885057471264354,
+     "pct_vs_ma20": 5.618577377076228,
+     "failure_true": false
+    },
+    {
+     "day": 4,
+     "date": "2026-08-03",
+     "close": 22.45,
+     "ret_vs_signal_pct": 3.218390804597693,
+     "pct_vs_ma20": 5.663997593017123,
+     "failure_true": false
+    },
+    {
+     "day": 5,
+     "date": "2026-08-04",
+     "close": 22.45,
+     "ret_vs_signal_pct": 3.218390804597693,
+     "pct_vs_ma20": 5.450523164578036,
+     "failure_true": false
+    }
+   ]
+  },
+  {
+   "signal_date": "2026-08-03",
+   "stock_id": "2812",
+   "turnover_rank": 299.0,
+   "signal_close": 20.65,
+   "signal_vol_ratio20": 1.7149562211091478,
+   "signal_pct_vs_ma20": 0.5477784540474762,
+   "status": "failed",
+   "fail_day": 2,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-08-04",
+     "close": 18.9,
+     "ret_vs_signal_pct": -0.42149631190727677,
+     "pct_vs_ma20": 0.12081401375858558,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-08-05",
+     "close": 18.8,
+     "ret_vs_signal_pct": -0.9483667017913588,
+     "pct_vs_ma20": -0.36142147821950354,
+     "failure_true": true
+    }
+   ]
+  },
+  {
+   "signal_date": "2026-08-14",
+   "stock_id": "9904",
+   "turnover_rank": 246.0,
+   "signal_close": 25.25,
+   "signal_vol_ratio20": 2.761486126567127,
+   "signal_pct_vs_ma20": 4.674059488029836,
+   "status": "held",
+   "fail_day": null,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-08-17",
+     "close": 24.8,
+     "ret_vs_signal_pct": -1.7821782178217838,
+     "pct_vs_ma20": 2.712776972458064,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-08-18",
+     "close": 24.5,
+     "ret_vs_signal_pct": -2.970297029702973,
+     "pct_vs_ma20": 1.449275362318847,
+     "failure_true": false
+    },
+    {
+     "day": 3,
+     "date": "2026-08-19",
+     "close": 24.7,
+     "ret_vs_signal_pct": -2.17821782178218,
+     "pct_vs_ma20": 2.182231875064633,
+     "failure_true": false
+    },
+    {
+     "day": 4,
+     "date": "2026-08-20",
+     "close": 25.05,
+     "ret_vs_signal_pct": -0.7920792079207928,
+     "pct_vs_ma20": 3.4589571502323224,
+     "failure_true": false
+    },
+    {
+     "day": 5,
+     "date": "2026-08-21",
+     "close": 25.0,
+     "ret_vs_signal_pct": -0.990099009900991,
+     "pct_vs_ma20": 3.1246777353820754,
+     "failure_true": false
+    }
+   ]
+  },
+  {
+   "signal_date": "2026-08-14",
+   "stock_id": "1810",
+   "turnover_rank": 263.0,
+   "signal_close": 27.55,
+   "signal_vol_ratio20": 1.6225920182435514,
+   "signal_pct_vs_ma20": 4.98237591692865,
+   "status": "held",
+   "fail_day": null,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-08-17",
+     "close": 26.2,
+     "ret_vs_signal_pct": -4.90018148820327,
+     "pct_vs_ma20": 0.2295332823259555,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-08-18",
+     "close": 26.85,
+     "ret_vs_signal_pct": -2.5408348457350294,
+     "pct_vs_ma20": 3.548013883532586,
+     "failure_true": false
+    },
+    {
+     "day": 3,
+     "date": "2026-08-19",
+     "close": 26.1,
+     "ret_vs_signal_pct": -5.263157894736836,
+     "pct_vs_ma20": 2.2426794633238822,
+     "failure_true": false
+    },
+    {
+     "day": 4,
+     "date": "2026-08-20",
+     "close": 26.05,
+     "ret_vs_signal_pct": -5.444646098003625,
+     "pct_vs_ma20": 2.9949589799347587,
+     "failure_true": false
+    },
+    {
+     "day": 5,
+     "date": "2026-08-21",
+     "close": 25.55,
+     "ret_vs_signal_pct": -7.2595281306715105,
+     "pct_vs_ma20": 1.6308671439936528,
+     "failure_true": false
+    }
+   ]
+  },
+  {
+   "signal_date": "2026-08-20",
+   "stock_id": "1101",
+   "turnover_rank": 206.0,
+   "signal_close": 24.8,
+   "signal_vol_ratio20": 1.719702893449739,
+   "signal_pct_vs_ma20": 2.28913177974841,
+   "status": "failed",
+   "fail_day": 4,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-08-21",
+     "close": 24.85,
+     "ret_vs_signal_pct": 0.20161290322580072,
+     "pct_vs_ma20": 2.273896491408567,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-08-24",
+     "close": 24.7,
+     "ret_vs_signal_pct": -0.40322580645162365,
+     "pct_vs_ma20": 1.5938303341902271,
+     "failure_true": false
+    },
+    {
+     "day": 3,
+     "date": "2026-08-25",
+     "close": 24.6,
+     "ret_vs_signal_pct": -0.8064516129032251,
+     "pct_vs_ma20": 1.2241538936323293,
+     "failure_true": false
+    },
+    {
+     "day": 4,
+     "date": "2026-08-26",
+     "close": 24.3,
+     "ret_vs_signal_pct": -2.0161290322580627,
+     "pct_vs_ma20": 0.0,
+     "failure_true": true
+    }
+   ]
+  },
+  {
+   "signal_date": "2026-08-31",
+   "stock_id": "1101",
+   "turnover_rank": 148.0,
+   "signal_close": 24.4,
+   "signal_vol_ratio20": 20.809061545971705,
+   "signal_pct_vs_ma20": 0.2774067605054942,
+   "status": "failed",
+   "fail_day": 3,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-09-01",
+     "close": 25.3,
+     "ret_vs_signal_pct": 3.688524590163933,
+     "pct_vs_ma20": 3.603603603603589,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-09-02",
+     "close": 24.8,
+     "ret_vs_signal_pct": 1.6393442622950838,
+     "pct_vs_ma20": 1.4003884289072843,
+     "failure_true": false
+    },
+    {
+     "day": 3,
+     "date": "2026-09-03",
+     "close": 24.45,
+     "ret_vs_signal_pct": 0.2049180327868827,
+     "pct_vs_ma20": -0.05109862033725321,
+     "failure_true": true
+    }
+   ]
+  },
+  {
+   "signal_date": "2026-08-31",
+   "stock_id": "2834",
+   "turnover_rank": 162.0,
+   "signal_close": 16.95,
+   "signal_vol_ratio20": 21.85099044759782,
+   "signal_pct_vs_ma20": 2.711710346917129,
+   "status": "held",
+   "fail_day": null,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-09-01",
+     "close": 17.1,
+     "ret_vs_signal_pct": 0.884955752212413,
+     "pct_vs_ma20": 3.5579106737320343,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-09-02",
+     "close": 17.25,
+     "ret_vs_signal_pct": 1.7699115044247815,
+     "pct_vs_ma20": 4.308390022675734,
+     "failure_true": false
+    },
+    {
+     "day": 3,
+     "date": "2026-09-03",
+     "close": 17.1,
+     "ret_vs_signal_pct": 0.884955752212413,
+     "pct_vs_ma20": 3.2297011771807993,
+     "failure_true": false
+    },
+    {
+     "day": 4,
+     "date": "2026-09-04",
+     "close": 17.0,
+     "ret_vs_signal_pct": 0.2949852507374784,
+     "pct_vs_ma20": 2.471368294153109,
+     "failure_true": false
+    },
+    {
+     "day": 5,
+     "date": "2026-09-07",
+     "close": 17.2,
+     "ret_vs_signal_pct": 1.4749262536873253,
+     "pct_vs_ma20": 3.4586466165413388,
+     "failure_true": false
+    }
+   ]
+  },
+  {
+   "signal_date": "2026-09-30",
+   "stock_id": "2002",
+   "turnover_rank": 243.0,
+   "signal_close": 19.2,
+   "signal_vol_ratio20": 3.5508758964391656,
+   "signal_pct_vs_ma20": 1.6679904686258906,
+   "status": "held",
+   "fail_day": null,
+   "observations": [
+    {
+     "day": 1,
+     "date": "2026-10-01",
+     "close": 18.95,
+     "ret_vs_signal_pct": -1.302083333333337,
+     "pct_vs_ma20": 0.370762711864403,
+     "failure_true": false
+    },
+    {
+     "day": 2,
+     "date": "2026-10-02",
+     "close": 19.0,
+     "ret_vs_signal_pct": -1.041666666666663,
+     "pct_vs_ma20": 0.6489206727585906,
+     "failure_true": false
+    },
+    {
+     "day": 3,
+     "date": "2026-10-05",
+     "close": 18.9,
+     "ret_vs_signal_pct": -1.5625,
+     "pct_vs_ma20": 0.14571466419392998,
+     "failure_true": false
+    },
+    {
+     "day": 4,
+     "date": "2026-10-06",
+     "close": 18.95,
+     "ret_vs_signal_pct": -1.302083333333337,
+     "pct_vs_ma20": 0.45056983832492126,
+     "failure_true": false
+    },
+    {
+     "day": 5,
+     "date": "2026-10-07",
+     "close": 18.95,
+     "ret_vs_signal_pct": -1.302083333333337,
+     "pct_vs_ma20": 0.46388336646785433,
+     "failure_true": false
+    }
+   ]
+  }
+ ]
+}

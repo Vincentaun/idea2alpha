@@ -1,0 +1,55 @@
+{
+ "idea": "股價淨值比低於 1.5 倍",
+ "mode": "pipeline",
+ "prompt_version": "translator_v1@b4e1765e",
+ "turns": [
+  {
+   "model_output": {
+    "status": "rule",
+    "questions": [],
+    "rule": {
+     "logic": "all",
+     "rules": [
+      {
+       "factor": "PBR",
+       "op": "<",
+       "value": 1.5,
+       "label": "股價淨值比低於 1.5 倍"
+      }
+     ]
+    },
+    "failure_condition": null,
+    "untranslated": [],
+    "assumptions": [],
+    "message": "已成功將您的選股想法轉化為執行條件。"
+   },
+   "raw": "{\n  \"status\": \"rule\",\n  \"questions\": [],\n  \"rule\": {\n    \"logic\": \"all\",\n    \"rules\": [\n      {\n        \"factor\": \"PBR\",\n        \"op\": \"<\",\n        \"value\": 1.5,\n        \"label\": \"股價淨值比低於 1.5 倍\"\n      }\n    ]\n  },\n  \"failure_condition\": null,\n  \"untranslated\": [],\n  \"assumptions\": [],\n  \"message\": \"已成功將您的選股想法轉化為執行條件。\"\n}",
+   "model": "gemini-3.5-flash-lite",
+   "provider": "gemini",
+   "created": "2026-11-19T07:43:50+00:00"
+  }
+ ],
+ "asked": false,
+ "model": "gemini-3.5-flash-lite",
+ "provider": "gemini",
+ "final": {
+  "status": "rule",
+  "questions": [],
+  "rule": {
+   "logic": "all",
+   "rules": [
+    {
+     "factor": "PBR",
+     "op": "<",
+     "value": 1.5,
+     "label": "股價淨值比低於 1.5 倍"
+    }
+   ]
+  },
+  "failure_condition": null,
+  "untranslated": [],
+  "assumptions": [],
+  "message": "已成功將您的選股想法轉化為執行條件。"
+ },
+ "issues": []
+}

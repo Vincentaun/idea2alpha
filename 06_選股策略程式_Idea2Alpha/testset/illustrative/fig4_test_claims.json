@@ -1,0 +1,39 @@
+{
+ "note": "檢查器測試輸入：由組員撰寫、刻意包含各種判定類型；換成 debate.py 的實際模型輸出後重畫",
+ "fact_sheet": "runs/factsheet_2610_2026-07-28.json",
+ "bull": [
+  {
+   "text": "The close crossed above MA20 and finished 2.4% above it.",
+   "cites": [
+    "F02",
+    "F03"
+   ]
+  },
+  {
+   "text": "Buying interest is sustained: volume reached 2.30 times its 20-day average.",
+   "cites": [
+    "F05"
+   ]
+  },
+  {
+   "text": "Volume rose to 3 times its average on the breakout day.",
+   "cites": [
+    "F05"
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "text": "Over five days, average volume was only 0.77 times the prior 20-day average, so the surge was a single day.",
+   "cites": [
+    "F06"
+   ]
+  },
+  {
+   "text": "12-1 momentum is at the 12th percentile of the universe.",
+   "cites": [
+    "F10"
+   ]
+  }
+ ]
+}

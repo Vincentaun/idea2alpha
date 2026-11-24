@@ -1,0 +1,857 @@
+{
+  "close_raw": {
+    "name": "收盤價（未還原）",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "adj_close": {
+    "name": "收盤價（還原）",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "close_p": {
+    "name": "收盤價（依週期 K 線）",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "ma_s": {
+    "name": "短均線（依週期）",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "ma_m": {
+    "name": "中均線（依週期）",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "ma_l": {
+    "name": "長均線（依週期）",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "ma_l_rising": {
+    "name": "長均線上升（是=1）",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "ma50": {
+    "name": "50 日均線",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "ma150": {
+    "name": "150 日均線",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "ma200": {
+    "name": "200 日均線",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "ma200_rising": {
+    "name": "200 日均線較 20 日前上升",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "high_52w_dist": {
+    "name": "距 52 週高點",
+    "unit": "%",
+    "range": [
+      -100,
+      0
+    ],
+    "group": "價量"
+  },
+  "vol_ratio20": {
+    "name": "成交量 ÷ 前 20 日均量",
+    "unit": "倍",
+    "range": [
+      0,
+      50
+    ],
+    "group": "價量"
+  },
+  "mom_12_1": {
+    "name": "12-1 月報酬",
+    "unit": "%",
+    "range": [
+      -100,
+      1000
+    ],
+    "group": "價量"
+  },
+  "mom_12_1_pct": {
+    "name": "12-1 月報酬百分位（1=最強）",
+    "unit": "0~1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "rs_raw": {
+    "name": "相對強度原始值",
+    "unit": "比率",
+    "range": [
+      -1,
+      10
+    ],
+    "group": "價量"
+  },
+  "rs_pct": {
+    "name": "相對強度百分位（1=最強）",
+    "unit": "0~1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "vol_1y": {
+    "name": "近 1 年年化波動度",
+    "unit": "%",
+    "range": [
+      0,
+      300
+    ],
+    "group": "價量"
+  },
+  "vol_1y_pct": {
+    "name": "波動度百分位（1=最高）",
+    "unit": "0~1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "var5": {
+    "name": "近 1 年日報酬 5% 分位（VaR）",
+    "unit": "%",
+    "range": [
+      -30,
+      0
+    ],
+    "group": "風險"
+  },
+  "var5_rank": {
+    "name": "下檔風險百分位（1=最高）",
+    "unit": "0~1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "風險"
+  },
+  "above_low20": {
+    "name": "未跌破前 20 日低點",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "range_last20": {
+    "name": "近 20 日振幅",
+    "unit": "%",
+    "range": [
+      0,
+      200
+    ],
+    "group": "價量"
+  },
+  "vcp_contracting": {
+    "name": "近 60 日振幅逐段收斂",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "box_height": {
+    "name": "前 20 日箱型高度",
+    "unit": "%",
+    "range": [
+      0,
+      200
+    ],
+    "group": "價量"
+  },
+  "darvas_break": {
+    "name": "達瓦斯箱頂突破",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "turnover20": {
+    "name": "20 日平均成交值",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "turnover_rank": {
+    "name": "成交值排名（1=最大）",
+    "unit": "名",
+    "range": [
+      1,
+      5000
+    ],
+    "group": "價量"
+  },
+  "in_universe": {
+    "name": "在當日股票池內",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "k": {
+    "name": "KD 的 K 值",
+    "unit": "0~100",
+    "range": [
+      0,
+      100
+    ],
+    "group": "技術"
+  },
+  "d": {
+    "name": "KD 的 D 值",
+    "unit": "0~100",
+    "range": [
+      0,
+      100
+    ],
+    "group": "技術"
+  },
+  "kd_cross_up_low": {
+    "name": "K 在 20 以下向上穿越 D",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "技術"
+  },
+  "rsi": {
+    "name": "RSI",
+    "unit": "0~100",
+    "range": [
+      0,
+      100
+    ],
+    "group": "技術"
+  },
+  "willr": {
+    "name": "威廉 %R",
+    "unit": "−100~0",
+    "range": [
+      -100,
+      0
+    ],
+    "group": "技術"
+  },
+  "willr_cross_up_80": {
+    "name": "%R 由 −80 以下回升",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "技術"
+  },
+  "macd_hist": {
+    "name": "MACD 柱狀體",
+    "unit": "點",
+    "range": [
+      null,
+      null
+    ],
+    "group": "技術"
+  },
+  "macd_turn_pos": {
+    "name": "MACD 柱狀體由負轉正",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "技術"
+  },
+  "dif_abs_pct": {
+    "name": "|DIF| ÷ 股價",
+    "unit": "%",
+    "range": [
+      0,
+      50
+    ],
+    "group": "技術"
+  },
+  "bb_break_up": {
+    "name": "收盤突破布林上軌",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "技術"
+  },
+  "bb_width_rising": {
+    "name": "布林帶寬擴張",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "技術"
+  },
+  "bb_squeeze_recent": {
+    "name": "近期布林帶寬收縮",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "技術"
+  },
+  "PER": {
+    "name": "本益比",
+    "unit": "倍",
+    "range": [
+      0,
+      500
+    ],
+    "group": "估值"
+  },
+  "PBR": {
+    "name": "股價淨值比",
+    "unit": "倍",
+    "range": [
+      0,
+      100
+    ],
+    "group": "估值"
+  },
+  "dividend_yield": {
+    "name": "現金殖利率",
+    "unit": "%",
+    "range": [
+      0,
+      30
+    ],
+    "group": "估值"
+  },
+  "per_x_pbr": {
+    "name": "本益比 × 淨值比",
+    "unit": "倍",
+    "range": [
+      0,
+      5000
+    ],
+    "group": "估值"
+  },
+  "pbr_pct": {
+    "name": "淨值比百分位（0=最便宜）",
+    "unit": "0~1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "估值"
+  },
+  "peg": {
+    "name": "PEG（本益比 ÷ EPS 年成長率）",
+    "unit": "倍",
+    "range": [
+      0,
+      50
+    ],
+    "group": "估值"
+  },
+  "earnings_yield": {
+    "name": "盈餘殖利率 EBIT÷EV",
+    "unit": "比率",
+    "range": [
+      -1,
+      2
+    ],
+    "group": "估值"
+  },
+  "magic_rank": {
+    "name": "神奇公式綜合排名（1=最好）",
+    "unit": "名",
+    "range": [
+      1,
+      3000
+    ],
+    "group": "估值"
+  },
+  "mktcap": {
+    "name": "市值",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "估值"
+  },
+  "eps_q": {
+    "name": "單季 EPS",
+    "unit": "元",
+    "range": [
+      -100,
+      500
+    ],
+    "group": "財報"
+  },
+  "eps_ttm": {
+    "name": "近四季 EPS",
+    "unit": "元",
+    "range": [
+      -200,
+      2000
+    ],
+    "group": "財報"
+  },
+  "eps_yoy_q": {
+    "name": "單季 EPS 年增率",
+    "unit": "%",
+    "range": [
+      -100,
+      10000
+    ],
+    "group": "財報"
+  },
+  "eps_cagr_3y": {
+    "name": "近 3 年 EPS 年複合成長率",
+    "unit": "%",
+    "range": [
+      -100,
+      500
+    ],
+    "group": "財報"
+  },
+  "roe_ttm": {
+    "name": "近四季 ROE",
+    "unit": "%",
+    "range": [
+      -100,
+      200
+    ],
+    "group": "財報"
+  },
+  "roa_ttm": {
+    "name": "近四季 ROA",
+    "unit": "%",
+    "range": [
+      -100,
+      100
+    ],
+    "group": "財報"
+  },
+  "roe_min_5y": {
+    "name": "近 5 年 ROE 最小值",
+    "unit": "%",
+    "range": [
+      -100,
+      200
+    ],
+    "group": "財報"
+  },
+  "eps_min_5y": {
+    "name": "近 5 年 EPS 最小值",
+    "unit": "元",
+    "range": [
+      -200,
+      2000
+    ],
+    "group": "財報"
+  },
+  "profitable_5y": {
+    "name": "近 5 年皆獲利",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "財報"
+  },
+  "current_ratio": {
+    "name": "流動比率",
+    "unit": "倍",
+    "range": [
+      0,
+      50
+    ],
+    "group": "財報"
+  },
+  "debt_ratio": {
+    "name": "負債比",
+    "unit": "%",
+    "range": [
+      0,
+      100
+    ],
+    "group": "財報"
+  },
+  "fcf_ttm": {
+    "name": "近四季自由現金流",
+    "unit": "元",
+    "range": [
+      null,
+      null
+    ],
+    "group": "財報"
+  },
+  "fscore": {
+    "name": "Piotroski F-Score",
+    "unit": "0~9",
+    "range": [
+      0,
+      9
+    ],
+    "group": "財報"
+  },
+  "roc": {
+    "name": "資本報酬率（神奇公式）",
+    "unit": "比率",
+    "range": [
+      -5,
+      20
+    ],
+    "group": "財報"
+  },
+  "dividend_years": {
+    "name": "連續配息年數",
+    "unit": "年",
+    "range": [
+      0,
+      60
+    ],
+    "group": "股利"
+  },
+  "payout_cv_5y": {
+    "name": "近 5 年配發率變異係數",
+    "unit": "比率",
+    "range": [
+      0,
+      10
+    ],
+    "group": "股利"
+  },
+  "rev_m": {
+    "name": "單月營收",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "營收"
+  },
+  "rev_yoy_m": {
+    "name": "單月營收年增率",
+    "unit": "%",
+    "range": [
+      -100,
+      10000
+    ],
+    "group": "營收"
+  },
+  "rev_yoy_3m": {
+    "name": "近 3 月營收年增率",
+    "unit": "%",
+    "range": [
+      -100,
+      10000
+    ],
+    "group": "營收"
+  },
+  "rev_new_high_12m": {
+    "name": "單月營收創 12 個月新高",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "營收"
+  },
+  "foreign_net": {
+    "name": "外資買賣超",
+    "unit": "張",
+    "range": [
+      null,
+      null
+    ],
+    "group": "籌碼"
+  },
+  "trust_net": {
+    "name": "投信買賣超",
+    "unit": "張",
+    "range": [
+      null,
+      null
+    ],
+    "group": "籌碼"
+  },
+  "foreign_buy_days": {
+    "name": "外資連買天數",
+    "unit": "日",
+    "range": [
+      0,
+      250
+    ],
+    "group": "籌碼"
+  },
+  "trust_buy_days": {
+    "name": "投信連買天數",
+    "unit": "日",
+    "range": [
+      0,
+      250
+    ],
+    "group": "籌碼"
+  },
+  "inst_net_buy_days": {
+    "name": "外資或投信連買天數（取大者）",
+    "unit": "日",
+    "range": [
+      0,
+      250
+    ],
+    "group": "籌碼"
+  },
+  "trust_buy_ratio_3d": {
+    "name": "近 3 日投信買超占成交量",
+    "unit": "%",
+    "range": [
+      -100,
+      100
+    ],
+    "group": "籌碼"
+  },
+  "inst_turn_buy": {
+    "name": "外資或投信轉為買超",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "籌碼"
+  },
+  "inst_net_20d": {
+    "name": "外資＋投信近 20 日淨買超",
+    "unit": "張",
+    "range": [
+      null,
+      null
+    ],
+    "group": "籌碼"
+  },
+  "margin_bal": {
+    "name": "融資餘額",
+    "unit": "張",
+    "range": [
+      0,
+      null
+    ],
+    "group": "籌碼"
+  },
+  "margin_chg_10d": {
+    "name": "融資餘額 10 日變化",
+    "unit": "%",
+    "range": [
+      -100,
+      1000
+    ],
+    "group": "籌碼"
+  },
+  "big_pct_up_2w": {
+    "name": "400 張以上大戶比例連 2 週上升",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "籌碼"
+  },
+  "holders_down": {
+    "name": "股東人數下降",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "籌碼"
+  },
+  "market_uptrend": {
+    "name": "大盤（0050）在 200 日線上",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "大盤"
+  },
+  "inst_short": {
+    "name": "三大法人台指期淨未平倉 5 日減少",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "大盤"
+  },
+  "retail_bull": {
+    "name": "散戶多空比偏多",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "大盤"
+  },
+  "l4_scale": {
+    "name": "L4 持股比例係數",
+    "unit": "0.25~1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "大盤"
+  },
+  "gaf_up_pct": {
+    "name": "GAF 分類器上升機率百分位",
+    "unit": "0~1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "實驗"
+  },
+  "ma20": {
+    "name": "20 日均線（還原）",
+    "unit": "元",
+    "range": [
+      0,
+      null
+    ],
+    "group": "價量"
+  },
+  "above_ma20": {
+    "name": "收盤在 20 日均線之上（狀態）",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "cross_up_ma20": {
+    "name": "剛向上突破 20 日均線（事件：昨日收盤 ≤ 昨日 MA20 且今日收盤 > 今日 MA20）",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "cross_down_ma20": {
+    "name": "剛向下跌破 20 日均線（事件）",
+    "unit": "0/1",
+    "range": [
+      0,
+      1
+    ],
+    "group": "價量"
+  },
+  "days_above_ma20": {
+    "name": "連續收在 20 日均線之上的天數",
+    "unit": "日",
+    "range": [
+      0,
+      500
+    ],
+    "group": "價量"
+  },
+  "ret_1d": {
+    "name": "當日漲跌幅",
+    "unit": "%",
+    "range": [
+      -10,
+      10
+    ],
+    "group": "價量"
+  },
+  "ret_5d": {
+    "name": "近 5 日漲跌幅",
+    "unit": "%",
+    "range": [
+      -60,
+      100
+    ],
+    "group": "價量"
+  },
+  "vol5_ratio20": {
+    "name": "近 5 日均量 ÷ 再之前 20 日均量",
+    "unit": "倍",
+    "range": [
+      0,
+      50
+    ],
+    "group": "價量"
+  }
+}

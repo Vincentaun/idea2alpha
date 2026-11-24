@@ -1,0 +1,48 @@
+{
+  "id": "V1",
+  "name": "葛拉漢防禦型",
+  "category": "價值",
+  "source": "Benjamin Graham, The Intelligent Investor",
+  "periods": [
+    "long"
+  ],
+  "data": [
+    "財報",
+    "本益比/淨值比",
+    "股利"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "PER",
+      "op": "<=",
+      "value": 15,
+      "label": "本益比 ≤ 15"
+    },
+    {
+      "factor": "per_x_pbr",
+      "op": "<=",
+      "value": 22.5,
+      "label": "本益比 × 淨值比 ≤ 22.5"
+    },
+    {
+      "factor": "current_ratio",
+      "op": ">=",
+      "value": 2,
+      "label": "流動比率 ≥ 2"
+    },
+    {
+      "factor": "profitable_5y",
+      "op": "==",
+      "value": 1,
+      "label": "近 5 年皆獲利"
+    },
+    {
+      "factor": "dividend_years",
+      "op": ">=",
+      "value": 5,
+      "label": "連續配息 ≥ 5 年"
+    }
+  ],
+  "note": "原書要求連續配息 20 年；台股初始參數放寬為 5 年。"
+}

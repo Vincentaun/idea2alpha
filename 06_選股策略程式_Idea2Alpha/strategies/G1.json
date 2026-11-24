@@ -1,0 +1,54 @@
+{
+  "id": "G1",
+  "name": "CAN SLIM",
+  "category": "成長",
+  "source": "William O'Neil, How to Make Money in Stocks",
+  "periods": [
+    "swing"
+  ],
+  "data": [
+    "財報",
+    "日K",
+    "三大法人"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "eps_yoy_q",
+      "op": ">=",
+      "value": 25,
+      "label": "最近一季 EPS 年增 ≥ 25%"
+    },
+    {
+      "factor": "eps_cagr_3y",
+      "op": ">=",
+      "value": 25,
+      "label": "近 3 年 EPS 年成長 ≥ 25%"
+    },
+    {
+      "factor": "rs_pct",
+      "op": ">=",
+      "value": 0.8,
+      "label": "相對強度前 20%"
+    },
+    {
+      "factor": "high_52w_dist",
+      "op": ">=",
+      "value": -15,
+      "label": "距 52 週高點 15% 內"
+    },
+    {
+      "factor": "inst_net_20d",
+      "op": ">",
+      "value": 0,
+      "label": "外資＋投信近 20 日淨買超"
+    },
+    {
+      "factor": "market_uptrend",
+      "op": "==",
+      "value": 1,
+      "label": "大盤（0050）在 200 日線上"
+    }
+  ],
+  "note": "法人持股增加以「外資＋投信 20 日淨買超」代替。"
+}

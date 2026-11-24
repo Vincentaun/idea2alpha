@@ -1,0 +1,27 @@
+{
+  "id": "T3",
+  "name": "52 週新高突破",
+  "category": "動能與技術",
+  "source": "George & Hwang (2004), Journal of Finance",
+  "periods": [
+    "swing"
+  ],
+  "data": [
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "high_52w_dist",
+      "op": ">=",
+      "value": -5,
+      "label": "距 52 週高點 5% 內"
+    },
+    {
+      "factor": "vol_ratio20",
+      "op": ">",
+      "value": 1.5,
+      "label": "成交量 > 20 日均量 1.5 倍"
+    }
+  ]
+}

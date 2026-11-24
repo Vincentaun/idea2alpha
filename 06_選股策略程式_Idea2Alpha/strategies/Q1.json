@@ -1,0 +1,33 @@
+{
+  "id": "Q1",
+  "name": "巴菲特式品質股",
+  "category": "品質與股利",
+  "source": "網路常見的巴菲特原則量化版",
+  "periods": [
+    "long"
+  ],
+  "data": [
+    "財報"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "roe_min_5y",
+      "op": ">=",
+      "value": 15,
+      "label": "近 5 年 ROE 皆 ≥ 15%"
+    },
+    {
+      "factor": "debt_ratio",
+      "op": "<",
+      "value": 50,
+      "label": "負債比 < 50%"
+    },
+    {
+      "factor": "fcf_ttm",
+      "op": ">",
+      "value": 0,
+      "label": "近四季自由現金流為正"
+    }
+  ]
+}

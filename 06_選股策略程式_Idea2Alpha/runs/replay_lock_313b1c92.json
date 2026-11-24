@@ -1,0 +1,51 @@
+{
+ "title": "低價、剛突破月線、放量；5 個交易日內跌回月線即視為一日行情",
+ "period": "swing",
+ "rule": {
+  "logic": "all",
+  "rules": [
+   {
+    "factor": "close_raw",
+    "op": "between",
+    "value": [
+     15,
+     30
+    ],
+    "label": "收盤價 15–30 元（使用者選定）"
+   },
+   {
+    "factor": "cross_up_ma20",
+    "op": "==",
+    "value": 1,
+    "label": "昨日收盤 ≤ 昨日 MA20，今日收盤 > 今日 MA20"
+   },
+   {
+    "factor": "vol_ratio20",
+    "op": ">=",
+    "value": 1.5,
+    "label": "成交量 ≥ 前 20 日均量 1.5 倍（使用者選定）"
+   }
+  ]
+ },
+ "failure_condition": {
+  "logic": "any",
+  "rules": [
+   {
+    "factor": "above_ma20",
+    "op": "==",
+    "value": 0,
+    "label": "收盤跌回 MA20 之下"
+   }
+  ],
+  "horizon_days": 5
+ },
+ "window": {
+  "start": "2026-07-01",
+  "end": "2026-09-30"
+ },
+ "selection": "期間內每一個交易日、股票池（當日成交值前 300 名）內所有符合條件的股票，全部列入",
+ "detail_cases": "圖中詳列的兩例：依訊號日先後，第一個 held 與第一個 failed；同日以成交值排名較前者優先",
+ "data_rule": "每個訊號只用訊號日收盤以前的資料；觀察期從訊號日的下一個交易日開始",
+ "declared_at": "2026-11-17T15:18:43+00:00",
+ "sha256": "313b1c9237579fae872e9cefe40ec3d86d7880121467823cad334526eaa91961"
+}

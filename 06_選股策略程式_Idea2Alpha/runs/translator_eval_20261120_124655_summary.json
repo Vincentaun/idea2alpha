@@ -1,0 +1,21 @@
+{
+ "stamp": "20261120_124655",
+ "dates": [
+  "2021-06-30",
+  "2022-06-30",
+  "2023-06-30",
+  "2024-06-28",
+  "2025-06-30",
+  "2026-06-30"
+ ],
+ "n_items": 30,
+ "model": "gemini-3.5-flash-lite",
+ "provider": "gemini",
+ "by_mode": {
+  "dict": {
+   "correct": 14,
+   "wrong_valid": 12,
+   "invalid": 4
+  }
+ }
+}

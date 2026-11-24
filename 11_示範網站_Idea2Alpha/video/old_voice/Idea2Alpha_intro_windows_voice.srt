@@ -1,0 +1,72 @@
+1
+00:00:01,318 --> 00:00:05,988
+Idea2Alpha turns a stock idea into conditions you can test, and prove wrong.
+
+2
+00:00:06,851 --> 00:00:13,872
+On the Try it page, you write an idea the way you'd say it, and Translate with AI sends it to the Gemini model we evaluated.
+
+3
+00:00:13,882 --> 00:00:18,211
+Here is one of our 30 test ideas: stocks that have been very strong lately.
+
+4
+00:00:18,221 --> 00:00:21,973
+The page highlights the vague word. It has no number yet,
+
+5
+00:00:21,983 --> 00:00:25,914
+so the translator asks what “very strong” means, instead of guessing.
+
+6
+00:00:25,924 --> 00:00:29,133
+Pick a different answer, and the conditions change at once.
+
+7
+00:00:29,143 --> 00:00:35,962
+Program checks confirm every factor and value, and the screening engine, not the AI, finds the matching stocks.
+
+8
+00:00:37,620 --> 00:00:42,258
+On 30 test ideas with signed answer keys, a direct prompt matched only 4.
+
+9
+00:00:42,268 --> 00:00:48,218
+The full pipeline matched 24 and 26 in two identical runs, against a target of 25.
+
+10
+00:00:50,130 --> 00:00:57,942
+Backtests from 2019 to 2026 compare each strategy with 0050 and with 200 random portfolios.
+
+11
+00:00:57,952 --> 00:01:02,754
+One popular combination beat only 30% of them: indistinguishable from luck.
+
+12
+00:01:04,362 --> 00:01:10,119
+A bull, a bear and a judge debate from a numbered fact sheet, and a checker flags unsupported claims.
+
+13
+00:01:12,471 --> 00:01:18,409
+The replay locks a rule before the outcome: of 8 signals, 5 held and 3 failed.
+
+14
+00:01:20,088 --> 00:01:22,717
+You can also ask the AI about the project.
+
+15
+00:01:26,899 --> 00:01:29,852
+It answers from a fact sheet built from our run records,
+
+16
+00:01:34,427 --> 00:01:36,406
+and it declines to pick stocks.
+
+17
+00:01:38,105 --> 00:01:41,008
+Every page works in English and Traditional Chinese.
+
+18
+00:01:43,759 --> 00:01:47,779
+Idea2Alpha. Test your stock idea before you trust it.
+

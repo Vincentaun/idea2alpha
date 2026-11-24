@@ -1,0 +1,33 @@
+{
+  "id": "T8",
+  "name": "布林通道突破",
+  "category": "動能與技術",
+  "source": "John Bollinger",
+  "periods": [
+    "short"
+  ],
+  "data": [
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "bb_break_up",
+      "op": "==",
+      "value": 1,
+      "label": "收盤突破上軌"
+    },
+    {
+      "factor": "bb_width_rising",
+      "op": "==",
+      "value": 1,
+      "label": "帶寬擴張"
+    },
+    {
+      "factor": "bb_squeeze_recent",
+      "op": "==",
+      "value": 1,
+      "label": "近 20 日帶寬曾收縮到 120 日最低 20%"
+    }
+  ]
+}

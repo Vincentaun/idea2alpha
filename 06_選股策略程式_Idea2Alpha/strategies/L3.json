@@ -1,0 +1,23 @@
+{
+  "id": "L3",
+  "name": "線型影像辨識（實驗性）",
+  "category": "實驗室",
+  "source": "實驗室 CVGIP 時間序列影像化論文（GAF）",
+  "periods": [
+    "swing"
+  ],
+  "data": [
+    "日K"
+  ],
+  "experimental": true,
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "gaf_up_pct",
+      "op": ">=",
+      "value": 0.8,
+      "label": "GAF 分類器上升機率前 20%"
+    }
+  ],
+  "note": "需要先跑 gaf.py 訓練模型並產生 gaf_up_pct 因子；沒有這個因子時本策略一律不命中。"
+}

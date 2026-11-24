@@ -1,0 +1,35 @@
+{
+  "id": "T5",
+  "name": "均線多頭排列",
+  "category": "動能與技術",
+  "source": "台股常見",
+  "periods": [
+    "short",
+    "swing"
+  ],
+  "data": [
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "ma_s",
+      "op": ">",
+      "ref": "ma_m",
+      "label": "短均 > 中均"
+    },
+    {
+      "factor": "ma_m",
+      "op": ">",
+      "ref": "ma_l",
+      "label": "中均 > 長均"
+    },
+    {
+      "factor": "close_p",
+      "op": ">",
+      "ref": "ma_s",
+      "label": "收盤站上短均"
+    }
+  ],
+  "note": "均線長度隨週期：短線 5/10/20 日、波段 20/60/120 日、長線 10/30/52 週。"
+}

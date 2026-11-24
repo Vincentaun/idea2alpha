@@ -1,0 +1,28 @@
+{
+  "id": "V3",
+  "name": "Piotroski F-Score",
+  "category": "價值",
+  "source": "Piotroski (2000), Journal of Accounting Research",
+  "periods": [
+    "long"
+  ],
+  "data": [
+    "財報三表",
+    "淨值比"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "pbr_pct",
+      "op": "<=",
+      "value": 0.3,
+      "label": "淨值比最低 30%"
+    },
+    {
+      "factor": "fscore",
+      "op": ">=",
+      "value": 7,
+      "label": "F-Score ≥ 7"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "T7",
+  "name": "MACD 翻正",
+  "category": "動能與技術",
+  "source": "Gerald Appel",
+  "periods": [
+    "short",
+    "swing"
+  ],
+  "data": [
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "macd_turn_pos",
+      "op": "==",
+      "value": 1,
+      "label": "MACD 柱狀體由負轉正"
+    },
+    {
+      "factor": "dif_abs_pct",
+      "op": "<=",
+      "value": 1.0,
+      "label": "DIF 在零軸附近（絕對值 ≤ 股價 1%）"
+    }
+  ]
+}

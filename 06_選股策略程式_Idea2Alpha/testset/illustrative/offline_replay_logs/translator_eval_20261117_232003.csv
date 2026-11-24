@@ -1,0 +1,7 @@
+﻿id,category,mode,status,asked,n_errors,error_codes,intercepted_codes,outcome,how
+B01,模糊詞需澄清,dict,rule,False,1,EVENT_AS_STATE,,invalid,檢查未過
+C01,事件與狀態,dict,rule,False,1,EVENT_AS_STATE,,invalid,檢查未過
+G01,要求投資建議,dict,refuse,False,0,,,correct,拒答
+B01,模糊詞需澄清,pipeline,rule,True,0,,,correct,執行結果比對
+C01,事件與狀態,pipeline,rule,False,0,,EVENT_AS_STATE,correct,執行結果比對
+G01,要求投資建議,pipeline,refuse,False,0,,,correct,拒答

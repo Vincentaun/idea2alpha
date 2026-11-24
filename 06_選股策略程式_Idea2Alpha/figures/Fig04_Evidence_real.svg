@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="590.4pt" height="432pt" viewBox="0 0 590.4 432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-20T14:56:23.929322</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432 
+L 590.4 432 
+L 590.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.334084 415.004602 
+L 211.338876 415.004602 
+Q 220.017756 415.004602 220.017756 408.654202 
+L 220.017756 44.513798 
+Q 220.017756 38.163398 211.338876 38.163398 
+L 20.334084 38.163398 
+Q 11.655204 38.163398 11.655204 44.513798 
+L 11.655204 408.654202 
+Q 11.655204 415.004602 20.334084 415.004602 
+z
+" clip-path="url(#p8a8c0313f0)" style="fill: #f0f5f8; stroke: #d4dee5; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 240.199044 415.004602 
+L 570.065916 415.004602 
+Q 578.744796 415.004602 578.744796 408.654202 
+L 578.744796 44.513798 
+Q 578.744796 38.163398 570.065916 38.163398 
+L 240.199044 38.163398 
+Q 231.520164 38.163398 231.520164 44.513798 
+L 231.520164 408.654202 
+Q 231.520164 415.004602 240.199044 415.004602 
+z
+" clip-path="url(#p8a8c0313f0)" style="fill: #f0f5f8; stroke: #d4dee5; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="11.68992" y="20.159775" transform="rotate(-0 11.68992 20.159775)">Tracing generated claims to one dated fact sheet</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="46.40544" y="56.056863" transform="rotate(-0 46.40544 56.056863)">Fact sheet · 2026-07-28</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="78.215944" transform="rotate(-0 23.26176 78.215944)">F01</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="78.306975" transform="rotate(-0 57.97728 78.306975)">Close</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="78.306975" transform="rotate(-0 211.30416 78.306975)">21.75 NT$</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="101.422344" transform="rotate(-0 23.26176 101.422344)">F02</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="101.513375" transform="rotate(-0 57.97728 101.513375)">Close vs. MA20</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="101.513375" transform="rotate(-0 211.30416 101.513375)">2.4 %</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="124.628744" transform="rotate(-0 23.26176 124.628744)">F03</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="124.719775" transform="rotate(-0 57.97728 124.719775)">Crossed above MA20 today</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="124.7029" transform="rotate(-0 211.30416 124.7029)">yes</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="147.835144" transform="rotate(-0 23.26176 147.835144)">F04</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="147.926175" transform="rotate(-0 57.97728 147.926175)">Consecutive days above MA20</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="147.926175" transform="rotate(-0 211.30416 147.926175)">1 day</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="171.041544" transform="rotate(-0 23.26176 171.041544)">F05</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="171.132575" transform="rotate(-0 57.97728 171.132575)">Volume / prior 20-day average</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="171.132575" transform="rotate(-0 211.30416 171.132575)">2.30 ×</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="194.247944" transform="rotate(-0 23.26176 194.247944)">F06</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(57.97728 194.338975)">5-day avg volume / prior</text>
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(57.97728 203.780256)">20-day avg</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="194.338975" transform="rotate(-0 211.30416 194.338975)">0.77 ×</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="229.057544" transform="rotate(-0 23.26176 229.057544)">F07</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="229.148575" transform="rotate(-0 57.97728 229.148575)">1-day return</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="229.148575" transform="rotate(-0 211.30416 229.148575)">2.4 %</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="252.263944" transform="rotate(-0 23.26176 252.263944)">F08</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="252.354975" transform="rotate(-0 57.97728 252.354975)">5-day return</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="252.354975" transform="rotate(-0 211.30416 252.354975)">1.4 %</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="275.470344" transform="rotate(-0 23.26176 275.470344)">F09</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="275.561375" transform="rotate(-0 57.97728 275.561375)">Distance from 52-week high</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="275.561375" transform="rotate(-0 211.30416 275.561375)">-8.6 %</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="298.676744" transform="rotate(-0 23.26176 298.676744)">F10</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="298.767775" transform="rotate(-0 57.97728 298.767775)">12-1 momentum percentile</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="298.767775" transform="rotate(-0 211.30416 298.767775)">12 pctl</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="321.883144" transform="rotate(-0 23.26176 321.883144)">F11</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="321.974175" transform="rotate(-0 57.97728 321.974175)">1-year volatility</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="321.974175" transform="rotate(-0 211.30416 321.974175)">25.7 %</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="345.089544" transform="rotate(-0 23.26176 345.089544)">F12</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="345.180575" transform="rotate(-0 57.97728 345.180575)">1-day 5% VaR (1-year)</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="345.180575" transform="rotate(-0 211.30416 345.180575)">-2.7 %</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="23.26176" y="368.295944" transform="rotate(-0 23.26176 368.295944)">F13</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="57.97728" y="368.386975" transform="rotate(-0 57.97728 368.386975)">20-day turnover rank</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 9px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: end; fill: #18334b" x="211.30416" y="368.386975" transform="rotate(-0 211.30416 368.386975)">183</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="23.26176" y="406.512" transform="rotate(-0 23.26176 406.512)">Computed by the program; the AI only quotes it.</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="266.2704" y="56.056863" transform="rotate(-0 266.2704 56.056863)">Claims and automatic checks</text>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 8.4px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="243.12672" y="77.619975" transform="rotate(-0 243.12672 77.619975)">Bull</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 91.250768)">當日股價以 21.75 元向上突破 20 日均線，且收盤相對 20 日均線為</text>
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 99.899993)">2.4 %，顯示短線動能轉強 [F01, F02, F03, F04]。</text>
+   </g>
+   <g id="text_46">
+    <text style="font-weight: 700; font-size: 6.88px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #af6d13" transform="translate(254.69856 114.47657)">INSUFFICIENT — “accelerating/slowing” needs the same measure at</text>
+    <text style="font-weight: 700; font-size: 6.88px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #af6d13" transform="translate(254.69856 121.428165)">two dates</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 143.629698)">成交量放大至前 20 日均量的 2.30 倍，且當日漲跌幅為 2.4 %，顯示</text>
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 152.261373)">伴隨成交量能增溫 [F05, F07]。</text>
+   </g>
+   <g id="text_48">
+    <text style="font-weight: 700; font-size: 6.88px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="254.69856" y="166.776126" transform="rotate(-0 254.69856 166.776126)">SUPPORTED</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 184.866544)">距離 52 週高點僅 -8.6 %，且 20 日成交值排名為 183 名，顯示市場</text>
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 193.619719)">關注度與位階維持在相對高水準 [F09, F13]。</text>
+   </g>
+   <g id="text_50">
+    <text style="font-weight: 700; font-size: 6.88px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="254.69856" y="207.912847" transform="rotate(-0 254.69856 207.912847)">SUPPORTED</text>
+   </g>
+   <g id="text_51">
+    <text style="font-weight: 700; font-size: 8.4px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #18334b" x="243.12672" y="230.614765" transform="rotate(-0 243.12672 230.614765)">Bear</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 244.245559)">雖然當日向上突破 20 日均線且收在 21.75 元，但近 5 日均量對再之</text>
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 251.972734)">前 20 日均量僅有 0.77 倍，顯示中短期量能並未全面放大，突破的追</text>
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 260.639509)">價力道可能不足 [F03, F05, F06]。</text>
+   </g>
+   <g id="text_53">
+    <text style="font-weight: 700; font-size: 6.88px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #a23b2a" x="254.69856" y="279.197712" transform="rotate(-0 254.69856 279.197712)">UNSUPPORTED — the number 21.75 is not in the cited facts</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 297.194756)">該股票在 12-1 月報酬的股票池百分位僅為 12 百分位，屬於長線相對</text>
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 304.982681)">落後族群，且距離 52 週高點還有 -8.6 %，上檔仍有套牢賣壓需要消</text>
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 313.588706)">化 [F09, F10]。</text>
+   </g>
+   <g id="text_55">
+    <text style="font-weight: 700; font-size: 6.88px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="254.69856" y="332.168284" transform="rotate(-0 254.69856 332.168284)">SUPPORTED</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 350.129328)">雖然當日漲幅為 2.4 %、連續收在 20 日均線之上為 1 日，但近 5 日</text>
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 358.766403)">漲跌幅僅有 1.4 %，顯示短線漲勢牛皮，缺乏持續上攻的動能 [F04,</text>
+    <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; fill: #18334b" transform="translate(243.12672 366.305928)">F07, F08]。</text>
+   </g>
+   <g id="text_57">
+    <text style="font-weight: 700; font-size: 6.88px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #087e8b" x="254.69856" y="385.138856" transform="rotate(-0 254.69856 385.138856)">SUPPORTED</text>
+   </g>
+  </g>
+  <g id="text_58">
+   <text style="font-size: 7.2px; font-family: 'Times New Roman', 'Noto Serif TC', 'Microsoft JhengHei', 'MingLiU', 'DejaVu Serif'; text-anchor: start; fill: #5e6c78" x="5.904" y="429.150375" transform="rotate(-0 5.904 429.150375)">Source: debate_2610_2026-07-28_20261120_010700.json (logged model output)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8a8c0313f0">
+   <rect x="5.904" y="4.32" width="578.592" height="423.36"/>
+  </clipPath>
+ </defs>
+</svg>

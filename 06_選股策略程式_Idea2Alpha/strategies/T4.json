@@ -1,0 +1,27 @@
+{
+  "id": "T4",
+  "name": "達瓦斯箱型",
+  "category": "動能與技術",
+  "source": "Nicolas Darvas, How I Made $2,000,000 in the Stock Market",
+  "periods": [
+    "swing"
+  ],
+  "data": [
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "darvas_break",
+      "op": "==",
+      "value": 1,
+      "label": "箱頂接近 52 週高點、箱高 ≤ 15%，收盤突破箱頂"
+    },
+    {
+      "factor": "vol_ratio20",
+      "op": ">=",
+      "value": 1.5,
+      "label": "帶量（≥ 20 日均量 1.5 倍）"
+    }
+  ]
+}

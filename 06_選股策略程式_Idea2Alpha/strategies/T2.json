@@ -1,0 +1,52 @@
+{
+  "id": "T2",
+  "name": "趨勢樣板＋波動收斂（VCP）",
+  "category": "動能與技術",
+  "source": "Mark Minervini, Trade Like a Stock Market Wizard；實驗室個股期也採用",
+  "periods": [
+    "swing"
+  ],
+  "data": [
+    "日K"
+  ],
+  "logic": "all",
+  "rules": [
+    {
+      "factor": "adj_close",
+      "op": ">",
+      "ref": "ma50",
+      "label": "收盤 > 50MA"
+    },
+    {
+      "factor": "ma50",
+      "op": ">",
+      "ref": "ma150",
+      "label": "50MA > 150MA"
+    },
+    {
+      "factor": "ma150",
+      "op": ">",
+      "ref": "ma200",
+      "label": "150MA > 200MA"
+    },
+    {
+      "factor": "ma200_rising",
+      "op": "==",
+      "value": 1,
+      "label": "200MA 上升"
+    },
+    {
+      "factor": "high_52w_dist",
+      "op": ">=",
+      "value": -25,
+      "label": "距 52 週高點 25% 內"
+    },
+    {
+      "factor": "vcp_contracting",
+      "op": "==",
+      "value": 1,
+      "label": "近 60 日振幅逐段收斂"
+    }
+  ],
+  "note": "實驗室的 3C（Cup Completion Cheat）在台指期與個股期都幾乎不出手而淘汰；此處用較寬的趨勢樣板。"
+}
